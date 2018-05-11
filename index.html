@@ -1,76 +1,100 @@
 <!DOCTYPE html>
 <html>
-  <head>
 
-    <!--Import Google Fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Antic|Finger+Paint" rel="stylesheet">
+<head>
 
-    <!--Import Google Icons-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <meta charset="utf-8" />
 
-    <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="./public/css/materialize.min.css"  media="screen,projection"/>
+  <!--Import Google Fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Antic|Finger+Paint" rel="stylesheet">
 
-    <!--Optimize for mobile-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <!--Import Google Icons-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-    <!--Import my own css-->
-    <link rel="stylesheet" type="text/css" href="./public/css/style.css">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="./public/css/materialize.min.css" media="screen,projection" />
 
-  </head>
+  <!--Optimize for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <body>
-      <div class="navbar-fixed">
-          <nav class="transparent z-depth-0">
-          <div class="nav-wrapper">
-            <ul id="nav-mobile" class="hide-on-sm-and-down">
-              <li class="link-item waves-effect waves-yellow"><a href="">Home</a></li>
-              <li class="link-item waves-effect waves-green"><a href="">About</a></li>
-              <li class="link-item waves-effect waves-teal"><a href="">Work</a></li>
-              <li class="link-item waves-effect waves-purple"><a href="#footer-connect">Contact</a></li>
+  <!--Import my own css-->
+  <link rel="stylesheet" type="text/css" href="./public/css/style.css">
+
+</head>
+
+<body>
+  <div class="navbar-fixed" id="navbar-top">
+    <nav class="transparent z-depth-0">
+      <div class="nav-wrapper">
+        <ul id="nav-mobile" class="hide-on-sm-and-down">
+          <li class="link-item home-link waves-effect waves-yellow">
+            <a href="#navbar-top">Home</a>
+          </li>
+          <li class="link-item waves-effect waves-green">
+            <a href="#">About</a>
+          </li>
+          <li class="link-item waves-effect waves-teal">
+            <a href="#">Work</a>
+          </li>
+          <li class="link-item contact-link waves-effect waves-purple">
+            <a href="#footer-connect">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+    <div>
+      <div class="row">
+        <div class="col s12 banner">
+          <p id="banner-title">elucidate</p>
+        </div>
+      </div>
+    </div>
+    <footer class="page-footer" id="footer-connect">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="black-text center-align">Contact</h5>
+            <p class="black-text">You can use rows and columns here to organize your footer content.</p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="black-text center-align">Connect with Me</h5>
+            <ul>
+              <li class="icon-github black-text">
+                <a href="https://github.com/Mondo114" target="_blank">
+                  <img src=./public/images/github.png class="social-link" alt="Brenton's GitHub Page">
+                </a>
+                <div class="link-title">
+                  <a href="https://github.com/Mondo114" target="_blank">GitHub</a>
+                </div>
+              </li>
+              <li class="icon-linkedin black-text">
+                <a href="https://www.linkedin.com/in/brenton-jenkins-a0017426/" target="_blank">
+                  <img src=./public/images/linkedin.png class="social-link" alt="Brenton's LinkedIn Page">
+                </a>
+                <div class="link-title">
+                  <a href="https://www.linkedin.com/in/brenton-jenkins-a0017426/" target="_blank">LinkedIn</a>
+                </div>
+              </li>
             </ul>
           </div>
-        </nav>
-      </div>
-      <div>
-          <div class="row">
-              <div class="col s12 banner">
-                <p id="banner-title">elucidate</p>
-              </div>
-            </div>
-      </div>
-      <footer class="page-footer" id="footer-connect">
-        <div class="container">
-          <div class="row">
-            <div class="col l6 s12">
-              <h5 class="black-text center-align">Contact</h5>
-              <p class="black-text">You can use rows and columns here to organize your footer content.</p>
-            </div>
-            <div class="col l4 offset-l2 s12">
-              <h5 class="black-text center-align">Connect with Me</h5>
-              <ul>
-                <li class="link-icon" ><a href="https://github.com/Mondo114" target="_blank">
-                  <img src=./public/images/github.png class="social-link" alt="Brenton's GitHub Page">
-                  </a>
-                  <span class="link-title black-text">GitHub</span>
-                </li>
-                <li class="link-icon"><a href="https://www.linkedin.com/in/brenton-jenkins-a0017426/" target="_blank">
-                  <img src=./public/images/linkedin.png class="social-link" alt="Brenton's LinkedIn Page">
-                  </a>
-                  <span class="link-title black-text">LinkedIn</span>
-                </li>
-              </ul>
-            </div>
-          </div>
         </div>
-          <div class="container center-align black-text">
-            © 2018 Copyright Brenton Jenkins
-        </div>
-      </footer>
+      </div>
+      <div class="container center-align black-text">
+        © 2018 Copyright Brenton Jenkins
+      </div>
+    </footer>
 
+    <!--JQuery-->
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
 
-    <!--JavaScript at end of body for optimized loading-->
+    <!--Materialize JavaScript-->
     <script type="text/javascript" src="./public/js/materialize.min.js"></script>
-  </body>
+
+    <!--Import my own Javascript-->
+    <script type="text/javascript" src="./public/js/javascript.js"></script>
+</body>
+
 </html>
-      
