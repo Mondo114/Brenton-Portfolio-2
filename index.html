@@ -6,7 +6,7 @@
   <meta charset="utf-8" />
 
   <!--Import Google Fonts-->
-  <link href="https://fonts.googleapis.com/css?family=Antic|Finger+Paint" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Antic|Finger+Paint|Londrina+Sketch" rel="stylesheet">
 
   <!--Import Google Icons-->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -20,6 +20,11 @@
   <!--Import my own css-->
   <link rel="stylesheet" type="text/css" href="./public/css/style.css">
 
+  <title>Brenton Jenkins Portfolio</title>
+
+  <!--Import my favicon-->
+  <link rel="shortcut icon" type="image/png" href="./public/images/jelly-favicon.png">
+
 </head>
 
 <body>
@@ -31,7 +36,7 @@
             <a href="#navbar-top">Home</a>
           </li>
           <li class="link-item waves-effect waves-green">
-            <a href="#">About</a>
+            <a href="#about-connect">About</a>
           </li>
           <li class="link-item waves-effect waves-teal">
             <a href="#">Work</a>
@@ -43,58 +48,68 @@
       </div>
     </nav>
   </div>
-    <div>
+  <div>
+    <div class="row">
+      <div class="col s12 banner">
+        <p id="banner-phrase">bring your website to light</p>
+        <p id="banner-title">elucidate</p>
+      </div>
+    </div>
+  </div>
+      <div class="container">
+    <div class="row about-row" id="about-connect">
+      <div class="col l6 s12 contact-div center-align white">
+        <h5 class="black-text">About Me</h5>
+        <p class="black-text">You can use rows and columns here to organize your footer content.</p>
+      </div>
+      <div class="col l6 s12 contact-div center-align white">
+          <img src=./public/images/brenton.jpg class="self-photo" alt="Brenton Himself">
+        </div>
+    </div>
+    </div>
+  <footer class="page-footer" id="footer-connect">
+    <div class="container">
       <div class="row">
-        <div class="col s12 banner">
-          <p id="banner-title">elucidate</p>
+        <div class="col l6 s12 contact-div center-align white">
+          <h5 class="black-text">Contact</h5>
+          <p class="black-text">You can use rows and columns here to organize your footer content.</p>
+        </div>
+        <div class="col l4 offset-l2 s12 connect-div white">
+          <h5 class="black-text center-align">Connect with Me</h5>
+          <ul>
+            <li class="icon-github black-text">
+              <a href="https://github.com/Mondo114" target="_blank">
+                <img src=./public/images/github.png class="social-link" alt="Brenton's GitHub Page">
+              </a>
+              <div class="link-title">
+                <a href="https://github.com/Mondo114" target="_blank">GitHub</a>
+              </div>
+            </li>
+            <li class="icon-linkedin black-text">
+              <a href="https://www.linkedin.com/in/brenton-jenkins-a0017426/" target="_blank">
+                <img src=./public/images/linkedin.png class="social-link" alt="Brenton's LinkedIn Page">
+              </a>
+              <div class="link-title">
+                <a href="https://www.linkedin.com/in/brenton-jenkins-a0017426/" target="_blank">LinkedIn</a>
+              </div>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
-    <footer class="page-footer" id="footer-connect">
-      <div class="container">
-        <div class="row">
-          <div class="col l6 s12">
-            <h5 class="black-text center-align">Contact</h5>
-            <p class="black-text">You can use rows and columns here to organize your footer content.</p>
-          </div>
-          <div class="col l4 offset-l2 s12">
-            <h5 class="black-text center-align">Connect with Me</h5>
-            <ul>
-              <li class="icon-github black-text">
-                <a href="https://github.com/Mondo114" target="_blank">
-                  <img src=./public/images/github.png class="social-link" alt="Brenton's GitHub Page">
-                </a>
-                <div class="link-title">
-                  <a href="https://github.com/Mondo114" target="_blank">GitHub</a>
-                </div>
-              </li>
-              <li class="icon-linkedin black-text">
-                <a href="https://www.linkedin.com/in/brenton-jenkins-a0017426/" target="_blank">
-                  <img src=./public/images/linkedin.png class="social-link" alt="Brenton's LinkedIn Page">
-                </a>
-                <div class="link-title">
-                  <a href="https://www.linkedin.com/in/brenton-jenkins-a0017426/" target="_blank">LinkedIn</a>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="container center-align black-text">
-        © 2018 Copyright Brenton Jenkins
-      </div>
-    </footer>
+    <div class="container center-align black-text">
+      © 2018 Copyright Brenton Jenkins
+    </div>
+  </footer>
 
-    <!--JQuery-->
-    <script src="https://code.jquery.com/jquery-3.3.1.js"
-    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-    crossorigin="anonymous"></script>
+  <!--JQuery-->
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
 
-    <!--Materialize JavaScript-->
-    <script type="text/javascript" src="./public/js/materialize.min.js"></script>
+  <!--Materialize JavaScript-->
+  <script type="text/javascript" src="./public/js/materialize.min.js"></script>
 
-    <!--Import my own Javascript-->
-    <script type="text/javascript" src="./public/js/javascript.js"></script>
+  <!--Import my own Javascript-->
+  <script type="text/javascript" src="./public/js/javascript.js"></script>
 </body>
 
 </html>

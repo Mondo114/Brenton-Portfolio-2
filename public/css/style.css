@@ -73,10 +73,26 @@ nav .nav-wrapper {
     border-bottom: 1px solid black;
 }
 
+#banner-phrase {
+    position: absolute;
+    padding-left: 40%;
+    padding-top: 10%;
+    font-family: 'Antic', sans-serif;
+    font-size: 50px;
+    -webkit-text-stroke: 1px black;
+    background: red;
+    background: -webkit-linear-gradient(left, orange , yellow, rgb(133, 240, 133), cyan, rgb(31, 100, 228), rgb(178, 46, 218));
+    background: -o-linear-gradient(right, orange, yellow, rgb(133, 240, 133), cyan, rgb(31, 100, 228), rgb(178, 46, 218));
+    background: -moz-linear-gradient(right, orange, yellow, rgb(133, 240, 133), cyan, rgb(31, 100, 228), rgb(178, 46, 218));
+    background: linear-gradient(to right, orange , yellow, rgb(133, 240, 133), cyan, rgb(31, 100, 228), rgb(178, 46, 218));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 #banner-title {
     padding-left: 25%;
     padding-top: 18%;
-    font-size: 70px;
+    font-size: 80px;
     font-family: 'Finger Paint', cursive;
     background: red;
     background: -webkit-linear-gradient(left, orange , yellow, rgb(133, 240, 133), cyan, rgb(31, 100, 228), rgb(178, 46, 218));
@@ -88,7 +104,33 @@ nav .nav-wrapper {
     -webkit-text-stroke: 1px black;
 }
 
+/* .row .col.s12 {
+    padding: 0 !important;
+} */
 
+.about-row {
+    font-family: 'Antic', sans-serif;
+    background-image: url(../images/watercolor1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.self-photo {
+    width: 400px;
+}
+
+.contact-div {
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.5), 0 17px 32px 0 rgba(0,0,0,0.5);
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.connect-div {
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.5), 0 17px 32px 0 rgba(0,0,0,0.5);
+    border-radius: 5px;
+    border: 1px solid black;
+}
 
 .page-footer {
     /* text-align: center; */
@@ -127,5 +169,23 @@ a {
 
     .contact-link {
         border-bottom-right-radius: none;
+    }
+}
+
+
+@media only screen and (max-width: 900px) {
+    #banner-title {
+        padding-left: 25%;
+        padding-top: 30%;
+        font-size: 70px;
+        font-family: 'Finger Paint', cursive;
+        background: red;
+        background: -webkit-linear-gradient(left, orange , yellow, rgb(133, 240, 133), cyan, rgb(31, 100, 228), rgb(178, 46, 218));
+        background: -o-linear-gradient(right, orange, yellow, rgb(133, 240, 133), cyan, rgb(31, 100, 228), rgb(178, 46, 218));
+        background: -moz-linear-gradient(right, orange, yellow, rgb(133, 240, 133), cyan, rgb(31, 100, 228), rgb(178, 46, 218));
+        background: linear-gradient(to right, orange , yellow, rgb(133, 240, 133), cyan, rgb(31, 100, 228), rgb(178, 46, 218));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke: 1px black;
     }
 }
