@@ -1,10 +1,10 @@
 body {
-    background-color:black;
+    background-color: black;
 }
 
-p {
+/* .page-footer p {
     font-size: 28px;
-}
+} */
 
 nav {
     width: 100%;
@@ -24,7 +24,7 @@ nav ul li:hover {
 
 .navbar-fixed {
     position: absolute;
-    z-index:9999;
+    z-index: 9999;
     text-shadow: 1px 2px 1px white;
 }
 
@@ -64,7 +64,7 @@ nav .nav-wrapper {
 .about-link,
 .work-link,
 .contact-link {
-    padding: 0 25px 10px 25px;
+    padding: 0 25px 11px 25px;
 }
 
 .contact-link {
@@ -91,10 +91,10 @@ nav .nav-wrapper {
     font-size: 50px;
     -webkit-text-stroke: 1px black;
     background: red;
-    background: -webkit-linear-gradient(left, orange , yellow, rgb(133, 240, 133), cyan, rgb(31, 100, 228), rgb(178, 46, 218));
+    background: -webkit-linear-gradient(left, orange, yellow, rgb(133, 240, 133), cyan, rgb(31, 100, 228), rgb(178, 46, 218));
     background: -o-linear-gradient(right, orange, yellow, rgb(133, 240, 133), cyan, rgb(31, 100, 228), rgb(178, 46, 218));
     background: -moz-linear-gradient(right, orange, yellow, rgb(133, 240, 133), cyan, rgb(31, 100, 228), rgb(178, 46, 218));
-    background: linear-gradient(to right, orange , yellow, rgb(133, 240, 133), cyan, rgb(31, 100, 228), rgb(178, 46, 218));
+    background: linear-gradient(to right, orange, yellow, rgb(133, 240, 133), cyan, rgb(31, 100, 228), rgb(178, 46, 218));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -105,10 +105,10 @@ nav .nav-wrapper {
     font-size: 80px;
     font-family: 'Finger Paint', cursive;
     background: red;
-    background: -webkit-linear-gradient(left, orange , yellow, rgb(133, 240, 133), cyan, rgb(31, 100, 228), rgb(178, 46, 218));
+    background: -webkit-linear-gradient(left, orange, yellow, rgb(133, 240, 133), cyan, rgb(31, 100, 228), rgb(178, 46, 218));
     background: -o-linear-gradient(right, orange, yellow, rgb(133, 240, 133), cyan, rgb(31, 100, 228), rgb(178, 46, 218));
     background: -moz-linear-gradient(right, orange, yellow, rgb(133, 240, 133), cyan, rgb(31, 100, 228), rgb(178, 46, 218));
-    background: linear-gradient(to right, orange , yellow, rgb(133, 240, 133), cyan, rgb(31, 100, 228), rgb(178, 46, 218));
+    background: linear-gradient(to right, orange, yellow, rgb(133, 240, 133), cyan, rgb(31, 100, 228), rgb(178, 46, 218));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 1px black;
@@ -118,21 +118,30 @@ nav .nav-wrapper {
     padding: 0 !important;
 } */
 
-.about-row {
+.about-section {
     font-family: 'Antic', sans-serif;
-    background-image: url(../images/watercolor1.jpg);
+    background-image: url(../images/watercolor2.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.about-paragraph {
+    font-size: 22px;
 }
 
 .self-photo {
     width: 400px;
 }
 
+.about-div {
+    margin: 20px;
+}
+
+.about-div,
 .contact-div,
 .connect-div {
-    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.5), 0 17px 32px 0 rgba(0,0,0,0.5);
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.5), 0 17px 32px 0 rgba(0, 0, 0, 0.5);
     border-radius: 5px;
     border: 1px solid black;
     background-image: url(../images/paper-white.jpg);
@@ -145,11 +154,16 @@ nav .nav-wrapper {
     /* text-align: center; */
     font-family: 'Antic', sans-serif;
     background-image: url(../images/rainbow.jpg);
-    background-position: center 27%;
+    background-position: center 0%;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
+    height: 770px;
     text-shadow: 1px 2px 1px white;
+}
+
+/* label color */
+.input-field label {
+    color: black;
 }
 
 .social-link {
@@ -158,7 +172,7 @@ nav .nav-wrapper {
     margin: 10px;
     border: 2px solid rgb(133, 240, 133);
     border-radius: 5px;
-    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.5), 0 17px 32px 0 rgba(0,0,0,0.5);
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.5), 0 17px 32px 0 rgba(0, 0, 0, 0.5);
 }
 
 .link-title {
@@ -171,11 +185,40 @@ a {
     color: blue;
 }
 
+.footer-name {
+    padding-top: 50px;
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(178, 46, 218);
+    border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(133, 240, 133);
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(123, 221, 123);
+}
+
+/* Handle on active */
+::-webkit-scrollbar-thumb:active {
+    background: rgb(108, 194, 108);
+}
+
 @media only screen and (min-width: 200px) {
     html {
         font-size: 28px;
     }
-
     .contact-link {
         border-bottom-right-radius: none;
     }
@@ -188,10 +231,10 @@ a {
         font-size: 70px;
         font-family: 'Finger Paint', cursive;
         background: red;
-        background: -webkit-linear-gradient(left, orange , yellow, rgb(133, 240, 133), cyan, rgb(31, 100, 228), rgb(178, 46, 218));
+        background: -webkit-linear-gradient(left, orange, yellow, rgb(133, 240, 133), cyan, rgb(31, 100, 228), rgb(178, 46, 218));
         background: -o-linear-gradient(right, orange, yellow, rgb(133, 240, 133), cyan, rgb(31, 100, 228), rgb(178, 46, 218));
         background: -moz-linear-gradient(right, orange, yellow, rgb(133, 240, 133), cyan, rgb(31, 100, 228), rgb(178, 46, 218));
-        background: linear-gradient(to right, orange , yellow, rgb(133, 240, 133), cyan, rgb(31, 100, 228), rgb(178, 46, 218));
+        background: linear-gradient(to right, orange, yellow, rgb(133, 240, 133), cyan, rgb(31, 100, 228), rgb(178, 46, 218));
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         -webkit-text-stroke: 1px black;

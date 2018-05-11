@@ -5,6 +5,13 @@
 
   <meta charset="utf-8" />
 
+  <!--Optimize for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta name="keywords" content="brenton jenkins, brenton, web, website, websites, web design, design, responsive, mobile, mobile design, development, responsive development, web development, unique, fun, developer, affordable, small business, personal, blog, portfolio">
+
+  <!-- graphic design, logo design, freelance, typography, hand drawn, lettering, illustration, store, prints, font, icons, skewed icons, stacked font  -->
+
   <!--Import Google Fonts-->
   <link href="https://fonts.googleapis.com/css?family=Antic|Finger+Paint|Londrina+Sketch" rel="stylesheet">
 
@@ -14,16 +21,13 @@
   <!--Import materialize.css-->
   <link type="text/css" rel="stylesheet" href="./public/css/materialize.min.css" media="screen,projection" />
 
-  <!--Optimize for mobile-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
   <!--Import my own css-->
   <link rel="stylesheet" type="text/css" href="./public/css/style.css">
 
-  <title>Brenton Jenkins Portfolio</title>
-
   <!--Import my favicon-->
   <link rel="shortcut icon" type="image/png" href="./public/images/jelly-favicon.png">
+
+  <title>Brenton Jenkins Portfolio</title>
 
 </head>
 
@@ -42,7 +46,7 @@
             <a class="link-item work-link waves-effect waves-teal" href="#">Work</a>
           </li>
           <li>
-            <a class="link-item contact-link waves-effect waves-purple"href="#footer-connect">Contact</a>
+            <a class="link-item contact-link waves-effect waves-purple" href="#footer-connect">Contact</a>
           </li>
         </ul>
       </div>
@@ -56,25 +60,64 @@
       </div>
     </div>
   </div>
-  <div id="about-connect">
+  <div class="about-section">
     <div class="container">
-      <div class="col l6 s12 contact-div center-align white">
-        <h5 class="black-text">About Me</h5>
-        <p class="black-text">You can use rows and columns here to organize your footer content.</p>
-      </div>
-      <div class="col l6 s12 contact-div center-align white">
-        <img src=./public/images/brenton.jpg class="self-photo" alt="Brenton Himself">
+      <div class="row">
+        <div class="col l6 s12 about-div center-align">
+          <h5 class="black-text center-align">About Me</h5>
+          <div class="about-paragraph left-align">
+            I’m a Web Developer with an emphasis in Front-end and Design. My background in creative product development as a Research
+            and Development Manager for a variety of products in the food industry has cultivated my comprehensive approach
+            to problem solving. It has also provided me with an aptitude for understanding the needs and requirements of
+            clients.
+          </div>
+          <br>
+          <div class="about-paragraph left-align">I enjoy exploring possible options to benefit clients and providing successful solutions. This translates to presenting
+            a positive Front-end experience to the user.
+          </div>
+          <br>
+        </div>
+        <div class="col l4 offset-l2 s12 about-div">
+          <img src=./public/images/brenton.jpg class="self-photo" alt="Brenton Himself">
+        </div>
       </div>
     </div>
   </div>
   <footer class="page-footer" id="footer-connect">
     <div class="container">
       <div class="row">
-        <div class="col l6 s12 contact-div center-align white">
+        <div class="col l6 s12 contact-div center-align">
           <h5 class="black-text">Contact</h5>
-          <p class="black-text">You can use rows and columns here to organize your footer content.</p>
+          <!-- <p class="black-text">You can use rows and columns here to organize your footer content.</p> -->
+          <div class="row">
+            <form class="col s12">
+              <div class="row">
+                <div class="input-field col s6">
+                  <input id="first_name" type="text" class="validate">
+                  <label for="first_name">First Name</label>
+                </div>
+                <div class="input-field col s6">
+                  <input id="last_name" type="text" class="validate">
+                  <label for="last_name">Last Name</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12">
+                  <input id="email" type="email" class="validate">
+                  <label for="email">Email</label>
+                </div>
+              </div>
+              <div class="row">
+                  <div class="input-field col s12">
+                      <textarea id="textarea1" class="materialize-textarea"></textarea>
+                      <label for="textarea1">Message</label>
+                  </div>
+                </div>
+            </form>
+          </div>
+
         </div>
-        <div class="col l4 offset-l2 s12 connect-div white">
+        <div class="col l4 offset-l2 s12 connect-div">
           <h5 class="black-text center-align">Connect with Me</h5>
           <ul>
             <li class="icon-github black-text">
@@ -93,11 +136,14 @@
                 <a href="https://www.linkedin.com/in/brenton-jenkins-a0017426/" target="_blank">LinkedIn</a>
               </div>
             </li>
+            <li class="icon-linkedin black-text">
+              <a href="mailto:brentonjjenkins@gmail.com" target="_blank">brentonjjenkins@gmail.com</a>
+            </li>
           </ul>
         </div>
       </div>
     </div>
-    <div class="container center-align black-text">
+    <div class="container center-align black-text footer-name">
       © 2018 Copyright Brenton Jenkins
     </div>
   </footer>
