@@ -111,9 +111,26 @@ nav .nav-wrapper {
     -webkit-text-stroke: 1px black;
 }
 
-/* .row .col.s12 {
-    padding: 0 !important;
-} */
+.paintbrush-div {
+    text-align: center;
+    border-top: 2px solid black;
+}
+
+.paintbrush-image1 {
+    height: 72px;
+    z-index: 100;
+    margin-top: -40px;
+}
+
+.paintbrush-image2 {
+    height: 72px;
+    z-index: 100;
+    margin-top: -40px;
+}
+
+.paper-box {
+    margin: 20px !important;
+}
 
 .about-section {
     font-family: 'Antic', sans-serif;
@@ -121,6 +138,18 @@ nav .nav-wrapper {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.card-title {
+    text-align: center;
+    font-family: 'Finger Paint', cursive;
+    background: -webkit-linear-gradient(left, orange, yellow, rgb(133, 240, 133), cyan, rgb(31, 100, 228), rgb(178, 46, 218));
+    background: -o-linear-gradient(right, orange, yellow, rgb(133, 240, 133), cyan, rgb(31, 100, 228), rgb(178, 46, 218));
+    background: -moz-linear-gradient(right, orange, yellow, rgb(133, 240, 133), cyan, rgb(31, 100, 228), rgb(178, 46, 218));
+    background: linear-gradient(to right, orange, yellow, rgb(133, 240, 133), cyan, rgb(31, 100, 228), rgb(178, 46, 218));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px black;
 }
 
 .about-paragraph {
@@ -133,8 +162,8 @@ nav .nav-wrapper {
     padding: 30px 20px 20px 20px;
 }
 
-.about-div {
-    margin: 20px;
+.photo-box {
+    width: 500px;
 }
 
 .about-div,
@@ -149,6 +178,14 @@ nav .nav-wrapper {
     background-size: cover;
 }
 
+.work-section {
+    font-family: 'Antic', sans-serif;
+    background-image: url(../images/watercolor3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .page-footer {
     /* text-align: center; */
     font-family: 'Antic', sans-serif;
@@ -157,6 +194,7 @@ nav .nav-wrapper {
     background-repeat: no-repeat;
     background-size: cover;
     height: 774px;
+    padding-top: 0;
     /* text-shadow: 1px 2px 1px white; */
 }
 
@@ -259,3 +297,12 @@ a {
         -webkit-text-stroke: 1px black;
     }
 }
+
+/* @media only screen and (min-width: 993px) {
+.row .col.l5 {
+    width: 41.6666666667%;
+    margin-left: 4%;
+    left: auto;
+    right: auto;
+    }
+} */

@@ -32,6 +32,8 @@
 </head>
 
 <body>
+
+  <!-- Top Section -->
   <div class="navbar-fixed" id="navbar-top">
     <nav class="transparent z-depth-0">
       <div class="nav-wrapper">
@@ -43,7 +45,7 @@
             <a class="link-item about-link waves-effect waves-green" href="#about-connect">About</a>
           </li>
           <li>
-            <a class="link-item work-link waves-effect waves-teal" href="#">Work</a>
+            <a class="link-item work-link waves-effect waves-teal" href="#work-connect">Work</a>
           </li>
           <li>
             <a class="link-item contact-link waves-effect waves-purple" href="#footer-connect">Contact</a>
@@ -60,91 +62,113 @@
       </div>
     </div>
   </div>
+
+  <!-- About Section -->
   <div class="about-section" id="about-connect">
-    <div class="container">
-      <div class="row">
-        <div class="col l5 s12 about-div">
-          <h5 class="black-text center-align">About Me</h5>
-          <div class="about-paragraph left-align">
-            I’m a Web Developer with an emphasis in Front-end and Design. My background in creative product development as a Research
-            and Development Manager for a variety of products in the food industry has cultivated my comprehensive approach
-            to problem solving. It has also provided me with an aptitude for understanding the needs and requirements of
-            clients.
-          </div>
-          <br>
-          <div class="about-paragraph left-align">I enjoy exploring possible options to benefit clients and providing successful solutions. This translates to presenting
-            a positive Front-end experience to the user.
-          </div>
-          <br>
+    <div class="paintbrush-div">
+      <img src=./public/images/paintbrush1.png class="paintbrush-image1" alt="Paintbrush">
+    </div>
+    <div class="row">
+      <div class="col l6 s12 about-div paper-box">
+        <h5 class="black-text center-align card-title">About Me</h5>
+        <div class="about-paragraph left-align">
+          I’m a Web Developer with an emphasis in Front-end and Design. My background in creative product development as a Research
+          and Development Manager for a variety of products in the food industry has cultivated my comprehensive approach
+          to problem solving. It has also provided me with an aptitude for understanding the needs and requirements of clients.
         </div>
-        <div class="col l5 offset-l2 s12 about-div">
-          <img src=./public/images/brenton.jpg class="self-photo" alt="Brenton Himself">
+        <br>
+        <div class="about-paragraph left-align">I enjoy exploring possible options to benefit clients and providing successful solutions. This translates to presenting
+          a positive Front-end experience to the user.
         </div>
+        <br>
+      </div>
+      <div class="col l5 s12 about-div photo-box paper-box">
+        <img src=./public/images/brenton.jpg class="self-photo" alt="Brenton Himself">
       </div>
     </div>
   </div>
+
+  <!-- Work Section -->
+  <div class="work-section" id="work-connect">
+    <div class="paintbrush-div">
+      <img src=./public/images/paintbrush1-flip.png class="paintbrush-image1" alt="Paintbrush">
+    </div>
+    <div class="row">
+      <div class="col l6 s12 about-div paper-box">
+        <h5 class="black-text center-align card-title">Work</h5>
+        <br>
+        <br>
+      </div>
+      <div class="col l5 s12 about-div photo-box paper-box">
+        <img src=./public/images/brenton.jpg class="self-photo" alt="Brenton Himself">
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer Section -->
   <footer class="page-footer" id="footer-connect">
-    <div class="container">
-      <div class="row">
-        <div class="col l6 s12 contact-div center-align">
-          <h5 class="black-text">Contact</h5>
-          <!-- <p class="black-text">You can use rows and columns here to organize your footer content.</p> -->
-          <div class="row">
-            <form class="col s12">
-              <div class="row">
-                <div class="input-field col s6">
-                  <input id="first_name" type="text" class="validate">
-                  <label for="first_name">First Name</label>
-                </div>
-                <div class="input-field col s6">
-                  <input id="last_name" type="text" class="validate">
-                  <label for="last_name">Last Name</label>
-                </div>
+    <div class="paintbrush-div">
+      <img src=./public/images/paintbrush1.png class="paintbrush-image2" alt="Paintbrush">
+    </div>
+    <div class="row">
+      <div class="col l5 s12 contact-div center-align paper-box">
+        <h5 class="black-text card-title">Contact</h5>
+        <div class="row">
+          <form class="col s12">
+            <div class="row">
+              <div class="input-field col s6">
+                <input id="first_name" type="text" class="validate">
+                <label for="first_name">First Name</label>
               </div>
-              <div class="row">
-                <div class="input-field col s12">
-                  <input id="email" type="email" class="validate">
-                  <label for="email">Email</label>
-                </div>
+              <div class="input-field col s6">
+                <input id="last_name" type="text" class="validate">
+                <label for="last_name">Last Name</label>
               </div>
-              <div class="row">
-                <div class="input-field col s12">
-                  <textarea id="textarea1" class="materialize-textarea"></textarea>
-                  <label for="textarea1">Message</label>
-                </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="email" type="email" class="validate">
+                <label for="email">Email</label>
               </div>
-              <div class="row">
-                <button class="btn-large waves-effect waves-light" id="submit-button" type="submit" name="action">
-                  Submit
-                </button>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <textarea id="textarea1" class="materialize-textarea"></textarea>
+                <label for="textarea1">Message</label>
               </div>
-            </form>
-          </div>
+            </div>
+            <div class="row">
+              <button class="btn-large waves-effect waves-light" id="submit-button" type="submit" name="action">
+                Submit
+              </button>
+            </div>
+          </form>
         </div>
-        <div class="col l4 offset-l2 s12 connect-div">
-          <h5 class="black-text center-align">Connect with Me</h5>
-          <ul>
-            <li class="icon-github black-text">
-              <a href="https://github.com/Mondo114" target="_blank">
-                <img src=./public/images/github.png class="social-link" alt="Brenton's GitHub Page">
-              </a>
-              <div class="link-title">
-                <a href="https://github.com/Mondo114" target="_blank">GitHub</a>
-              </div>
-            </li>
-            <li class="icon-linkedin black-text">
-              <a href="https://www.linkedin.com/in/brenton-jenkins-a0017426/" target="_blank">
-                <img src=./public/images/linkedin.png class="social-link" alt="Brenton's LinkedIn Page">
-              </a>
-              <div class="link-title">
-                <a href="https://www.linkedin.com/in/brenton-jenkins-a0017426/" target="_blank">LinkedIn</a>
-              </div>
-            </li>
-            <li class="icon-linkedin black-text">
-              <a href="mailto:brentonjjenkins@gmail.com" target="_blank">brentonjjenkins@gmail.com</a>
-            </li>
-          </ul>
-        </div>
+      </div>
+      <div class="col l5 offset-l2 s12 connect-div paper-box">
+        <h5 class="black-text center-align card-title">Connect with Me</h5>
+        <ul>
+          <li class="icon-linkedin black-text">
+            <a href="mailto:brentonjjenkins@gmail.com" target="_blank">brentonjjenkins@gmail.com</a>
+          </li>
+          <br>
+          <li class="icon-github black-text">
+            <a href="https://github.com/Mondo114" target="_blank">
+              <img src=./public/images/github.png class="social-link" alt="Brenton's GitHub Page">
+            </a>
+            <div class="link-title">
+              <a href="https://github.com/Mondo114" target="_blank">GitHub</a>
+            </div>
+          </li>
+          <li class="icon-linkedin black-text">
+            <a href="https://www.linkedin.com/in/brenton-jenkins-a0017426/" target="_blank">
+              <img src=./public/images/linkedin.png class="social-link" alt="Brenton's LinkedIn Page">
+            </a>
+            <div class="link-title">
+              <a href="https://www.linkedin.com/in/brenton-jenkins-a0017426/" target="_blank">LinkedIn</a>
+            </div>
+          </li>
+        </ul>
       </div>
     </div>
     <div class="container center-align black-text footer-name">
