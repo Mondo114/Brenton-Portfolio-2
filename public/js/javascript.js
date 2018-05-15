@@ -16,3 +16,14 @@
     });
     
 })();
+
+
+var submitAlert = function() {
+    event.preventDefault();
+    alert("This is under construction. Please connect with me using my email.");
+}
+
+
+var homeScroll = function() {
+    window.scrollTo(0, 0);
+}

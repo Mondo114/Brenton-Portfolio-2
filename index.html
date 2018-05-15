@@ -13,7 +13,7 @@
   <!-- graphic design, logo design, freelance, typography, hand drawn, lettering, illustration, store, prints, font, icons, skewed icons, stacked font  -->
 
   <!--Import Google Fonts-->
-  <link href="https://fonts.googleapis.com/css?family=Antic|Finger+Paint|Londrina+Sketch" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Antic|Finger+Paint|Londrina+Sketch|Raleway" rel="stylesheet">
 
   <!--Import Google Icons-->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -66,7 +66,7 @@
   <!-- About Section -->
   <div class="about-section" id="about-connect">
     <div class="paintbrush-div">
-      <img src=./public/images/paintbrush1.png class="paintbrush-image1" alt="Paintbrush">
+      <!-- <img src=./public/images/paintbrush1.png class="paintbrush-image1" alt="Paintbrush"> -->
     </div>
     <div class="row">
       <div class="col l6 s12 about-div paper-box">
@@ -91,7 +91,7 @@
   <!-- Work Section -->
   <div class="work-section" id="work-connect">
     <div class="paintbrush-div">
-      <img src=./public/images/paintbrush1-flip.png class="paintbrush-image1" alt="Paintbrush">
+      <!-- <img src=./public/images/paintbrush1-flip.png class="paintbrush-image1" alt="Paintbrush"> -->
     </div>
     <div class="row">
       <div class="col l6 s12 about-div paper-box">
@@ -108,11 +108,11 @@
   <!-- Footer Section -->
   <footer class="page-footer" id="footer-connect">
     <div class="paintbrush-div">
-      <img src=./public/images/paintbrush1.png class="paintbrush-image2" alt="Paintbrush">
+      <!-- <img src=./public/images/paintbrush1.png class="paintbrush-image2" alt="Paintbrush"> -->
     </div>
     <div class="row">
       <div class="col l5 s12 contact-div center-align paper-box">
-        <h5 class="black-text card-title">Contact</h5>
+        <h5 class="black-text card-title">Send Me a Message</h5>
         <div class="row">
           <form class="col s12">
             <div class="row">
@@ -138,9 +138,7 @@
               </div>
             </div>
             <div class="row">
-              <button class="btn-large waves-effect waves-light" id="submit-button" type="submit" name="action">
-                Submit
-              </button>
+              <button class="btn-large waves-effect waves-light" id="submit-button" onclick="submitAlert()" type="submit" name="action">Submit</button>
             </div>
           </form>
         </div>
@@ -148,11 +146,11 @@
       <div class="col l5 offset-l2 s12 connect-div paper-box">
         <h5 class="black-text center-align card-title">Connect with Me</h5>
         <ul>
-          <li class="icon-linkedin black-text">
+          <li class="icon-linkedin black-text connect-content">
             <a href="mailto:brentonjjenkins@gmail.com" target="_blank">brentonjjenkins@gmail.com</a>
           </li>
           <br>
-          <li class="icon-github black-text">
+          <li class="icon-github black-text connect-content">
             <a href="https://github.com/Mondo114" target="_blank">
               <img src=./public/images/github.png class="social-link" alt="Brenton's GitHub Page">
             </a>
@@ -160,7 +158,7 @@
               <a href="https://github.com/Mondo114" target="_blank">GitHub</a>
             </div>
           </li>
-          <li class="icon-linkedin black-text">
+          <li class="icon-linkedin black-text connect-content">
             <a href="https://www.linkedin.com/in/brenton-jenkins-a0017426/" target="_blank">
               <img src=./public/images/linkedin.png class="social-link" alt="Brenton's LinkedIn Page">
             </a>
@@ -172,7 +170,9 @@
       </div>
     </div>
     <div class="container center-align black-text footer-name">
-      © 2018 Copyright Brenton Jenkins
+      <span>© 2018 Copyright Brenton Jenkins</span>
+      <span class="separator">|</span>
+      <button class="top-button waves-effect waves-light link-item top-link" onclick="homeScroll()">Home</button>
     </div>
   </footer>
 
