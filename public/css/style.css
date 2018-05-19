@@ -65,7 +65,7 @@ nav .nav-wrapper {
 }
 
 .banner {
-    background: black;
+    background-image: url(../images/watercolor1.jpg);
     background-position: center 90%;
     background-repeat: no-repeat;
     background-size: cover;
