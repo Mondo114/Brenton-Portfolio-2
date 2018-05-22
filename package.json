@@ -18,6 +18,8 @@
   "homepage": "https://github.com/Mondo114/Brenton-Jenkins-Portfolio#readme",
   "dependencies": {
     "body-parser": "^1.18.2",
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "nodemailer": "^4.6.4"
   }
 }

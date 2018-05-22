@@ -1,5 +1,5 @@
-(function() {
-                
+// Navbar Disappear and Reappear
+(function() {      
     var documentElem = $(document),
         nav = $('nav'),
         lastScrollTop = 0;
@@ -14,16 +14,16 @@
         
         lastScrollTop = currentScrollTop;
     });
-    
 })();
 
-
+// Submist Button Under Contruction Alert Message
+// onclick="submitAlert()" Add this code to sumbit button if using below code
 var submitAlert = function() {
     event.preventDefault();
-    alert("This is under construction. Please connect with me using my email.");
+    alert("This is under construction. Please connect with me on LinkedIn.");
 }
 
-
+// Footer Home Page Functionality
 var homeScroll = function() {
     window.scrollTo(0, 0);
 }
