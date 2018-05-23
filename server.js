@@ -32,7 +32,7 @@ app.use(bodyParser.text({
 app.use('/public', express.static(path.join(__dirname, 'public')));
 
 app.get('/', (req, res) => {
-  res.render('portfolio');
+  res.render('main');
 });
 
 
@@ -81,7 +81,7 @@ app.post('/send', (req, res) => {
     console.log('Message sent: %s', info.messageId);
     console.log('Preview URL: %s', nodemailer.getTestMessageUrl(info));
 
-    res.render('portfolio', {msg:'Your email has been sent'});
+    res.render('main', {msg:'Your email has been sent'});
   });
 });
 
