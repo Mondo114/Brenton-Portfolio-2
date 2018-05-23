@@ -35,7 +35,6 @@ app.get('/', (req, res) => {
   res.render('main');
 });
 
-
 app.post('/send', (req, res) => {
   const output = `
     <p>You have a new message from your portfolio website.</p>
