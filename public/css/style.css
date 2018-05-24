@@ -34,10 +34,8 @@ nav ul a {
 
 nav .nav-wrapper {
     position: relative;
-    /* width: 488px; */
     height: 80px;
     border-bottom: 2px solid black;
-    /* border-bottom-right-radius: 80px; */
     background-color: black;
     border-bottom: 2px solid white;
 }
@@ -75,14 +73,6 @@ nav .nav-wrapper {
     margin-right: 10px;
 }
 
-/* .contact-link {
-    margin-right: 0;
-} */
-
-/* .contact-link {
-    border-bottom-right-radius: 25px;
-} */
-
 .banner {
     background-image: url(../images/watercolor1b.jpg);
     background-position: center 80%;
@@ -103,24 +93,6 @@ nav .nav-wrapper {
     font-size: 60px;
     text-shadow: 2px 2px 0px white;
 }
-
-/* #banner-title {
-    padding-left: 25%;
-    padding-top: 14%;
-    font-size: 100px;
-    font-family: 'Cagliostro', sans-serif;
-    -webkit-text-stroke: 2px white;
-    background: -webkit-linear-gradient(left, orange, yellow, rgb(90, 230, 90), cyan, rgb(31, 100, 228), rgb(178, 46, 218));
-    background: -o-linear-gradient(right, orange, yellow, rgb(90, 230, 90), cyan, rgb(31, 100, 228), rgb(178, 46, 218));
-    background: -moz-linear-gradient(right, orange, yellow, rgb(90, 230, 90), cyan, rgb(31, 100, 228), rgb(178, 46, 218));
-    background: linear-gradient(to right, orange, yellow, rgb(90, 230, 90), cyan, rgb(31, 100, 228), rgb(178, 46, 218));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-} */
-
-/* .intro-section {
-    height: 80px;
-} */
 
 .border-div {
     text-align: center;
@@ -219,7 +191,6 @@ nav .nav-wrapper {
 
 .work-image {
     width: 100%;
-    /* height: auto; */
     border-radius: 5px;
     border: 2px solid black;
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.5), 0 17px 32px 0 rgba(0, 0, 0, 0.5);
@@ -227,7 +198,6 @@ nav .nav-wrapper {
 
 .work-image:hover {
     width: 100%;
-    /* height: auto; */
     border-radius: 5px;
     border: 2px solid black;
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.5), 0 17px 32px 0 rgba(0, 0, 0, 0.5);
@@ -334,7 +304,6 @@ textarea.materialize-textarea {
 
 .link-title a {
     color: blue;
-    /* position: relative; */
     text-decoration: none;
 }
 
@@ -402,11 +371,7 @@ textarea.materialize-textarea {
 }
 
 /* Media Queries */
-
 @media only screen and (max-width: 390px) {
-    /* #banner-title {
-        font-size: 70px !important;
-    } */
     #banner-phrase {
         font-size: 40px;
     }
@@ -459,14 +424,6 @@ textarea.materialize-textarea {
     }
     .work-image:hover {
         width: 300px;
-    } */
-}
-
-@media only screen and (max-width: 620px) {
-    /* #banner-title {
-        padding-left: 5%;
-        padding-top: 45%;
-        font-size: 80px;
     } */
 }
 
