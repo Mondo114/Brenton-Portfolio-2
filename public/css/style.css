@@ -113,8 +113,9 @@ nav .nav-wrapper {
 
 .about-section {
     font-family: 'Antic', sans-serif;
-    background-image: url(../images/watercolor3.jpg);
-    background-position: center center;
+    background-image: url(../images/rainbow.jpg);
+    background-attachment: fixed;
+    background-position: center 16%;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -141,8 +142,9 @@ nav .nav-wrapper {
 
 .work-section {
     font-family: 'Antic', sans-serif;
-    background-image: url(../images/watercolor2.jpg);
-    background-position: center center;
+    background-image: url(../images/rainbow.jpg);
+    background-attachment: fixed;
+    background-position: center 16%;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -207,6 +209,7 @@ nav .nav-wrapper {
 .footer-section {
     font-family: 'Antic', sans-serif;
     background-image: url(../images/rainbow.jpg);
+    background-attachment: fixed;
     background-position: center 16%;
     background-repeat: repeat;
     background-size: cover;
