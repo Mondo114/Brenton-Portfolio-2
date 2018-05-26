@@ -34,8 +34,7 @@ app.post('/send', (req, res) => {
     <p>You have a new message from your portfolio website.</p>
     <h3>Contact Details</h3>
     <ul>  
-      <li>First Name: ${req.body.firstname}</li>
-      <li>Last Name: ${req.body.lastname}</li>
+      <li>Full Name: ${req.body.fullname}</li>
       <li>Email: ${req.body.email}</li>
     </ul>
     <h3>Message</h3>
