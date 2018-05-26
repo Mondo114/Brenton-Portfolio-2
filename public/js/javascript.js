@@ -1,3 +1,15 @@
+// Setting Up Handlebars
+var source = document.getElementById("entry-template").innerHTML;
+var template = Handlebars.compile(source);
+
+var context = {title: "My New Post", body: "This is my first post!"};
+var html = template(context);
+
+var location = document.getElementById("handlebars-here").innerHTML;
+location.appendChild(html);
+
+
+
 // Navbar Disappear and Reappear
 (function() {      
     var documentElem = $(document),
@@ -27,3 +39,4 @@ var submitAlert = function() {
 var homeScroll = function() {
     window.scrollTo(0, 0);
 }
+

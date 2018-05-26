@@ -96,8 +96,6 @@
 
     <!-- Work Section -->
     <div class="work-section" id="work-connect">
-        <div class="border-div">
-        </div>
         <div class="row">
             <div class="col l7 s8 paper-box work-box">
                 <h5 class="black-text center-align card-title">Work</h5>
@@ -139,7 +137,7 @@
                             </a>
                         </div>
                     </div>
-                    {{!-- <div class="flex-row">
+                    <!-- <div class="flex-row">
                         <div class="project">
                             <div class="app-title">
                                 frij'it
@@ -156,7 +154,7 @@
                                 <img src=./public/images/fijit-image.png class="work-image" alt="Frij'it App">
                             </a>
                         </div>
-                    </div> --}}
+                    </div> -->
                 </div>
                 <br>
             </div>
@@ -165,13 +163,10 @@
 
     <!-- Footer Section -->
     <footer class="footer-section" id="footer-connect">
-        <div class="border-div">
-        </div>
         <div class="row">
-            {{!--
-            <div class="col l5 s10 center-align paper-box message-box">
+            <!-- <div class="col l5 s10 center-align paper-box message-box">
                 <h5 class="black-text card-title">Send Me an Email</h5>
-                <hr> {{msg}}
+                <hr>
                 <div class="row">
                     <form method="POST" action="send" class="col s12">
                         <div class="row">
@@ -201,7 +196,7 @@
                         </div>
                     </form>
                 </div>
-            </div> --}}
+            </div> -->
             <div class="col l5 offset-l2 s10 paper-box connect-box">
                 <h5 class="black-text center-align card-title">Connect with Me</h5>
                 <hr>
@@ -233,6 +228,9 @@
                 </ul>
             </div>
         </div>
+        <div id="handlebars-here">
+            hello Daniel
+        </div>
         <div class="center-align black-text footer-name">
             <span>© 2018 Copyright Brenton Jenkins</span>
         </div>
@@ -246,6 +244,16 @@
 
     <!--Import my own Javascript-->
     <script type="text/javascript" src="./public/js/javascript.js"></script>
+
+    <!-- Test JS -->
+    <script id="entry-template" type="text/x-handlebars-template">
+        <div class="entry">
+            <h1>{{title}}</h1>
+            <div class="body">
+            {{body}}
+            </div>
+        </div>
+    </script>
 
 </body>
 
