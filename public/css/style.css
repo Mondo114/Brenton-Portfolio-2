@@ -194,15 +194,10 @@ nav .nav-wrapper {
 .work-image {
     width: 100%;
     border-radius: 5px;
-    border: 2px solid black;
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.5), 0 17px 32px 0 rgba(0, 0, 0, 0.5);
 }
 
 .work-image:hover {
-    width: 100%;
-    border-radius: 5px;
-    border: 2px solid black;
-    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.5), 0 17px 32px 0 rgba(0, 0, 0, 0.5);
     opacity: 0.8;
 }
 
@@ -246,30 +241,25 @@ textarea.materialize-textarea {
 
 #submit-button {
     margin-bottom: 40px;
-    background-color: purple;
+    background-color: black;
     border: 2px solid rgb(133, 240, 133);
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.5), 0 17px 32px 0 rgba(0, 0, 0, 0.5);
     font-size: 22px;
+    padding-bottom: 55px;
+    border-radius: 10px;
 }
 
 #submit-button:hover {
-    margin-bottom: 40px;
-    background-color: rgb(155, 1, 155);
-    border: 2px solid rgb(133, 240, 133);
-    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.5), 0 17px 32px 0 rgba(0, 0, 0, 0.5);
-    font-size: 22px;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
-#submit-button:focus {
-    margin-bottom: 40px;
-    background-color: rgb(155, 1, 155);
+#submit-button:active {
+    background-color: rgba(0, 0, 0, 0.5);
     border: 2px solid blue;
-    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.5), 0 17px 32px 0 rgba(0, 0, 0, 0.5);
-    font-size: 22px;
 }
 
 .connect-box {
-    margin-left: 29% !important;
+    margin-left: 5% !important;
 }
 
 .connect-email {
@@ -285,17 +275,11 @@ textarea.materialize-textarea {
     height: 80px;
     margin: 10px;
     border: 2px solid rgb(133, 240, 133);
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.5), 0 17px 32px 0 rgba(0, 0, 0, 0.5);
 }
 
 .social-link:hover {
-    width: 80px;
-    height: 80px;
-    margin: 10px;
-    border: 2px solid rgb(133, 240, 133);
-    border-radius: 5px;
-    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.5), 0 17px 32px 0 rgba(0, 0, 0, 0.5);
     opacity: 0.8;
 }
 

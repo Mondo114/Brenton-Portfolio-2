@@ -15,7 +15,7 @@ app.engine('handlebars', exphbs());
 app.set('view engine', 'handlebars');
 
 // Static folder
-app.use('/views', express.static(path.join(__dirname, 'views')));
+app.use('/public', express.static(path.join(__dirname, 'public')));
 
 // Body Parser Middleware
 app.use(bodyParser.urlencoded({extended: true}));
@@ -49,8 +49,8 @@ app.post('/send', (req, res) => {
     secure: false, // true for 465, false for other ports
     service: "gmail",
     auth: {
-      user: 'my gmail', // generated ethereal user
-      pass: '' // generated ethereal password
+      user: 'bobcheeseman15@gmail.com', // generated ethereal user
+      pass: 'socheesy15:(' // generated ethereal password
     },
     tls:{
       rejectUnauthorized:false
@@ -59,8 +59,8 @@ app.post('/send', (req, res) => {
 
   // setup email data with unicode symbols
   let mailOptions = {
-    from: '"Brenton Portfolio Website Contact" <my gmail>', // sender address
-    to: 'my gmail', // list of receivers
+    from: '"Brenton Portfolio Website Contact" <brentonjjenkins@gmail.com>', // sender address
+    to: 'brentonjjenkins@gmail.com', // list of receivers
     subject: 'Brenton Portfolio Website Contact Message', // Subject line
     text: 'Hello World', // plain text body
     html: output // html body
