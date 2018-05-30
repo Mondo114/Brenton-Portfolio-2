@@ -48,11 +48,26 @@
                     <li>
                         <a class="link-item work-link waves-effect waves-purple" href="#work-connect">Work</a>
                     </li>
-                    <ul id="nav-mobile" class="hide-on-sm-and-down right">
-                        <li>
-                            <a class="link-item contact-link waves-effect waves-purple" href="#footer-connect">Contact</a>
+                    <li>
+                        <a class="link-item contact-link waves-effect waves-purple" href="#footer-connect">Contact</a>
+                    </li>
+                </ul>
+                <ul id="nav-mobile" class="hide-on-sm-and-down">
+                    <li class="right aboutme-mini">
+                        <a class="" href="https://about.me/brentonjenkins" target="_blank">
+                            <img src=./public/images/aboutme.png class="social-link-mini" alt="Brenton's About.Me Page">
+                        </a>
+                    </li>
+                    <li class="right">
+                            <a href="https://www.linkedin.com/in/brenton-jenkins" target="_blank">
+                                <img src=./public/images/linkedin.png class="social-link-mini" alt="Brenton's LinkedIn Page">
+                            </a>
                         </li>
-                    </ul>
+                    <li class="right">
+                        <a href="https://github.com/Mondo114" target="_blank">
+                            <img src=./public/images/github.png class="social-link-mini" alt="Brenton's GitHub Page">
+                        </a>
+                    </li>
                 </ul>
             </div>
         </nav>
@@ -98,7 +113,7 @@
     <div class="work-section" id="work-connect">
         <div class="row">
             <div class="col l7 s8 paper-box work-box">
-                <h5 class="black-text center-align card-title">Projects</h5>
+                <h5 class="black-text center-align card-title">Work</h5>
                 <hr>
                 <div>
                     <div class="flex-row">
@@ -164,35 +179,6 @@
     <!-- Footer Section -->
     <footer class="footer-section" id="footer-connect">
         <div class="row">
-            <div class="col l5 s10 center-align paper-box message-box">
-                <h5 class="black-text card-title">Send an Email</h5>
-                <hr>
-                <div class="row">
-                    <form method="POST" action="send" class="col s12">
-                        <div class="row">
-                            <div class="input-field col s6">
-                                <input id="full_name" type="text" name="fullname" class="validate">
-                                <label class="input-title" for="full_name">Full Name</label>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="input-field col s12">
-                                <input id="email" type="email" name="email" class="validate">
-                                <label class="input-title" for="email">Email</label>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="input-field col s12">
-                                <textarea id="textarea1" name="message" class="materialize-textarea"></textarea>
-                                <label class="input-title" for="textarea1">Message</label>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <button class="btn-large waves-effect waves-light" id="submit-button" type="submit" name="action">Submit</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
             <div class="col l5 offset-l2 s10 paper-box connect-box">
                 <h5 class="black-text center-align card-title">Connect with Me</h5>
                 <hr>
@@ -243,7 +229,7 @@
         <div class="entry">
             <h1>{{title}}</h1>
             <div class="body">
-            {{body}}
+                {{body}}
             </div>
         </div>
     </script>

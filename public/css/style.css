@@ -22,26 +22,16 @@ nav.hidden {
     z-index: 9999;
 }
 
-nav ul a {
-    -webkit-transition: background-color .3s;
-    transition: background-color .3s;
-    font-size: 1rem;
-    color: white;
-    display: block;
-    padding: 0 15px;
-    cursor: pointer;
-}
-
 nav .nav-wrapper {
     position: relative;
-    height: 80px;
+    height: 82px;
     border-bottom: 2px solid black;
     background-color: black;
     border-bottom: 2px solid white;
 }
 
 .link-item {
-    padding: 0 10px 0 10px;
+    padding: 0 25px 0px 25px;
     font-family: 'Antic', sans-serif;
     border-radius: 5px;
 }
@@ -49,13 +39,6 @@ nav .nav-wrapper {
 .navbar-fixed nav {
     position: fixed;
     height: 82px;
-}
-
-.home-link,
-.about-link,
-.work-link,
-.contact-link {
-    padding: 0 25px 0px 25px;
 }
 
 .home-link:hover,
@@ -69,7 +52,38 @@ nav .nav-wrapper {
     margin-left: 10px;
 }
 
-.contact-link {
+.right a {
+    width: 50px;
+    height: 50px;
+    margin: 10px 14.5px 14px 14px;
+    padding: 0;
+}
+
+.right {
+    border-radius: 5px;
+    margin: 5px;
+    height: 70px;
+}
+
+.right:hover {
+    background-color: rgba(139, 98, 155, 0.6);
+    border-radius: 5px;
+    margin: 5px;
+    height: 70px;
+}
+
+.social-link-mini {
+    width: 50px;
+    height: 50px;
+    border: 2px solid rgb(133, 240, 133);
+    border-radius: 7px;
+}
+
+.aboutme-mini {
+    margin-right: 10px;
+}
+
+.aboutme-mini:hover {
     margin-right: 10px;
 }
 
@@ -258,7 +272,7 @@ textarea.materialize-textarea {
 }
 
 .connect-box {
-    margin-left: 5% !important;
+    margin-left: 29% !important;
 }
 
 .connect-email {
@@ -411,6 +425,12 @@ textarea.materialize-textarea {
     .work-image:hover {
         width: 300px;
     } */
+}
+
+@media only screen and (max-width: 900px) {
+    .social-link-mini {
+        visibility: hidden;
+    }
 }
 
 @media only screen and (max-width: 1000px) {
