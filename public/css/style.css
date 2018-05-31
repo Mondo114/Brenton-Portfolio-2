@@ -2,6 +2,14 @@ html {
     font-size: 28px;
 }
 
+body {
+    background-image: url(../images/rainbow.jpg);
+    background-attachment: fixed;
+    background-position: center 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .row {
     margin-bottom: 0;
 }
@@ -127,11 +135,11 @@ nav .nav-wrapper {
 
 .about-section {
     font-family: 'Antic', sans-serif;
-    background-image: url(../images/rainbow.jpg);
+    /* background-image: url(../images/rainbow.jpg);
     background-attachment: fixed;
     background-position: center 0%;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
 }
 
 .about-box {
@@ -155,11 +163,11 @@ nav .nav-wrapper {
 
 .work-section {
     font-family: 'Antic', sans-serif;
-    background-image: url(../images/rainbow.jpg);
+    /* background-image: url(../images/rainbow.jpg);
     background-attachment: fixed;
     background-position: center 0%;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
 }
 
 .app-title {
@@ -216,11 +224,11 @@ nav .nav-wrapper {
 
 .footer-section {
     font-family: 'Antic', sans-serif;
-    background-image: url(../images/rainbow.jpg);
+    /* background-image: url(../images/rainbow.jpg);
     background-attachment: fixed;
     background-position: center 0%;
     background-repeat: repeat;
-    background-size: cover;
+    background-size: cover; */
     padding-top: 0;
 }
 
