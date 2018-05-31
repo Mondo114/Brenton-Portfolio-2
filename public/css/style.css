@@ -107,11 +107,12 @@ nav .nav-wrapper {
 
 #banner-phrase {
     position: absolute;
-    padding-left: 40%;
-    padding-top: 7%;
+    top: 18%;
+    left: 35%;
     font-family: 'Antic', sans-serif;
     font-size: 60px;
     text-shadow: 2px 2px 0px white;
+    /* transform: translate(-50%, -50%); */
 }
 
 .border-div {
@@ -136,13 +137,13 @@ nav .nav-wrapper {
 }
 
 .about-paragraph {
-    font-size: 24px;
+    font-size: 1.5vw;
     font-family: 'Raleway', sans-serif;
 }
 
-.photo-box {
-   display: flex;
-   align-items: center;
+.about-section {
+    display: flex;
+    align-items: center;
 }
 
 .self-photo {
@@ -261,25 +262,72 @@ nav .nav-wrapper {
 }
 
 /* Media Queries */
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 1300px) {
     #banner-phrase {
-        font-size: 40px;
+        font-size: 50px;
     }
 }
 
-@media only screen and (max-width: 500px) {
-    .paper-box {
+@media only screen and (max-width: 1090px) {
+    html {
+        font-size: 24px;
+    }
+
+    #banner-phrase {
+        font-size: 45px;
+        left: 20%;
+        top: 20%;
+    }
+
+    .flex-row {
+        flex-direction: column;
+    }
+
+    .project {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .about-section {
+        display: inline;
+        /* align-items: none; */
+    }
+
+    .photo-box {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    html {
         font-size: 20px;
     }
-    .about-paragraph {
-        font-size: 20px;
+
+    #banner-phrase {
+        font-size: 40px;
+        left: 15%;
     }
-    .input-title {
-        font-size: 20px !important;
+
+    .right,
+    .social-link-mini {
+        visibility: hidden;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    #banner-phrase {
+        font-size: 35px;
+        left: 5%;
+        top: 28%;
     }
 }
 
 @media only screen and (max-width: 550px) {
+    #banner-phrase {
+        font-size: 35px;
+    }
+
     .link-item {
         font-size: 20px;
         padding-left: 10px !important;
@@ -287,17 +335,14 @@ nav .nav-wrapper {
     }
 }
 
-@media only screen and (max-width: 900px) {
-    .social-link-mini {
-        visibility: hidden;
+@media only screen and (max-width: 500px) {
+    #banner-phrase {
+        font-size: 30px;
     }
 }
 
-@media only screen and (max-width: 1030px) {
-    .flex-row {
-        flex-direction: column;
-    }
-    .project {
-        width: 100%;
+@media only screen and (max-width: 390px) {
+    #banner-phrase {
+        font-size: 25px;
     }
 }
