@@ -10,10 +10,6 @@ body {
     background-size: cover;
 }
 
-.row {
-    margin-bottom: 0;
-}
-
 nav {
     width: 100%;
     height: 70px;
@@ -95,16 +91,18 @@ nav .nav-wrapper {
     margin-right: 10px;
 }
 
+.header-section {
+    margin-bottom: 80px;
+}
+
 .banner {
     background-image: url(../images/watercolor1b.jpg);
     background-position: center 80%;
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
-    margin: 0px 0px;
-    padding: 70px 0 0 0;
     z-index: 999;
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid white;
 }
 
 #banner-phrase {
@@ -125,7 +123,6 @@ nav .nav-wrapper {
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.5), 0 17px 32px 0 rgba(0, 0, 0, 0.5);
     border-radius: 5px;
     background-color: white;
-    margin: 40px 0 !important;
 }
 
 .card-title {
@@ -135,15 +132,7 @@ nav .nav-wrapper {
 
 .about-section {
     font-family: 'Antic', sans-serif;
-    /* background-image: url(../images/rainbow.jpg);
-    background-attachment: fixed;
-    background-position: center 0%;
-    background-repeat: no-repeat;
-    background-size: cover; */
-}
-
-.about-box {
-    margin-left: 5% !important;
+    margin-bottom: 80px;
 }
 
 .about-paragraph {
@@ -152,7 +141,8 @@ nav .nav-wrapper {
 }
 
 .photo-box {
-    margin-left: 6.5% !important;
+   display: flex;
+   align-items: center;
 }
 
 .self-photo {
@@ -163,11 +153,7 @@ nav .nav-wrapper {
 
 .work-section {
     font-family: 'Antic', sans-serif;
-    /* background-image: url(../images/rainbow.jpg);
-    background-attachment: fixed;
-    background-position: center 0%;
-    background-repeat: no-repeat;
-    background-size: cover; */
+    margin-bottom: 80px;
 }
 
 .app-title {
@@ -181,14 +167,6 @@ nav .nav-wrapper {
     justify-content: space-between;
 }
 
-/* .flex-row:not(:first-child) {
-    background: pink;
-}
-
-.flex-row:not(:first-child) .project {
-    background: green;
-} */
-
 .project {
     width: calc(50% - 10px);
     margin-top: 20px;
@@ -197,19 +175,6 @@ nav .nav-wrapper {
 .project:only-child {
     margin-left: auto;
     margin-right: auto;
-}
-
-@media only screen and (max-width: 1030px) {
-    .flex-row {
-        flex-direction: column;
-    }
-    .project {
-        width: 100%;
-    }
-}
-
-.work-box {
-    margin-left: 20.5% !important;
 }
 
 .work-image {
@@ -224,63 +189,14 @@ nav .nav-wrapper {
 
 .footer-section {
     font-family: 'Antic', sans-serif;
-    /* background-image: url(../images/rainbow.jpg);
-    background-attachment: fixed;
-    background-position: center 0%;
-    background-repeat: repeat;
-    background-size: cover; */
-    padding-top: 0;
-}
-
-.message-box {
-    margin-left: 5% !important;
 }
 
 .input-field label {
     color: black;
 }
 
-input:not([type]),
-input[type=text]:not(.browser-default),
-input[type=password]:not(.browser-default),
-input[type=email]:not(.browser-default),
-input[type=url]:not(.browser-default),
-input[type=time]:not(.browser-default),
-input[type=date]:not(.browser-default),
-input[type=datetime]:not(.browser-default),
-input[type=datetime-local]:not(.browser-default),
-input[type=tel]:not(.browser-default),
-input[type=number]:not(.browser-default),
-input[type=search]:not(.browser-default),
-textarea.materialize-textarea {
-    font-size: 24px;
-}
-
 .materialize-textarea {
     height: 150px !important;
-}
-
-#submit-button {
-    margin-bottom: 40px;
-    background-color: black;
-    border: 2px solid rgb(133, 240, 133);
-    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.5), 0 17px 32px 0 rgba(0, 0, 0, 0.5);
-    font-size: 22px;
-    padding-bottom: 55px;
-    border-radius: 10px;
-}
-
-#submit-button:hover {
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
-#submit-button:active {
-    background-color: rgba(0, 0, 0, 0.5);
-    border: 2px solid blue;
-}
-
-.connect-box {
-    margin-left: 29% !important;
 }
 
 .connect-email {
@@ -344,40 +260,6 @@ textarea.materialize-textarea {
     padding-top: 55px;
 }
 
-.separator {
-    padding-left: 10px;
-}
-
-.top-button {
-    display: inline;
-    margin: 5px 5px 5px 10px;
-    background-color: purple;
-    color: white;
-    border: 2px solid rgb(133, 240, 133);
-    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.5), 0 17px 32px 0 rgba(0, 0, 0, 0.5);
-    font-size: 22px;
-}
-
-.top-button:hover {
-    display: inline;
-    margin: 5px 5px 5px 10px;
-    background-color: rgb(155, 1, 155);
-    color: white;
-    border: 2px solid rgb(133, 240, 133);
-    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.5), 0 17px 32px 0 rgba(0, 0, 0, 0.5);
-    font-size: 22px;
-}
-
-.top-button:focus {
-    display: inline;
-    margin: 5px 5px 5px 10px;
-    background-color: rgb(155, 1, 155);
-    color: white;
-    border: 2px solid blue;
-    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.5), 0 17px 32px 0 rgba(0, 0, 0, 0.5);
-    font-size: 22px;
-}
-
 /* Media Queries */
 @media only screen and (max-width: 390px) {
     #banner-phrase {
@@ -385,26 +267,8 @@ textarea.materialize-textarea {
     }
 }
 
-@media only screen and (max-width: 450px) {
-    /* .work-image {
-        width: 200px !important;
-        margin-bottom: 20px !important;
-    }
-    .work-image:hover {
-        width: 200px !important;
-        margin-bottom: 20px !important;
-    } */
-}
-
 @media only screen and (max-width: 500px) {
-    .separator {
-        display: none;
-    }
-    .connect-link {
-        margin-left: 0%;
-    }
     .paper-box {
-        margin: 40px 0;
         font-size: 20px;
     }
     .about-paragraph {
@@ -416,23 +280,11 @@ textarea.materialize-textarea {
 }
 
 @media only screen and (max-width: 550px) {
-    /* nav .nav-wrapper {
-        width: 286px;
-    } */
     .link-item {
         font-size: 20px;
         padding-left: 10px !important;
         padding-right: 10px !important;
     }
-    .work-box {
-        margin-left: 20.5% !important;
-    }
-    /* .work-image {
-        width: 300px;
-    }
-    .work-image:hover {
-        width: 300px;
-    } */
 }
 
 @media only screen and (max-width: 900px) {
@@ -441,14 +293,11 @@ textarea.materialize-textarea {
     }
 }
 
-@media only screen and (max-width: 1000px) {
-    #banner-phrase {
-        padding-left: 5%;
+@media only screen and (max-width: 1030px) {
+    .flex-row {
+        flex-direction: column;
     }
-    .work-box {
-        margin-left: 5% !important;
-    }
-    .connect-box {
-        margin-left: 5% !important;
+    .project {
+        width: 100%;
     }
 }
