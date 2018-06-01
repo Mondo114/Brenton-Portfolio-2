@@ -346,10 +346,10 @@ nav .nav-wrapper {
 
 @media only screen and (max-width: 500px) {
     body {
-        background-image: url(../images/rainbow.jpg);
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: cover;
+        background-image: url(../images/rainbow.jpg) !important;
+        background-position: center center !important;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
     }
 }
 
