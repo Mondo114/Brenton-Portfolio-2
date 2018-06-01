@@ -112,17 +112,15 @@ nav .nav-wrapper {
     font-family: 'Antic', sans-serif;
     font-size: 60px;
     text-shadow: 2px 2px 0px white;
-    /* transform: translate(-50%, -50%); */
 }
 
 #banner-phrase2 {
     position: absolute;
-    top: 24%;
+    top: 26%;
     left: 61%;
     font-family: 'Antic', sans-serif;
     font-size: 60px;
     text-shadow: 2px 2px 0px white;
-    /* transform: translate(-50%, -50%); */
 }
 
 .border-div {
@@ -283,20 +281,12 @@ nav .nav-wrapper {
         font-size: 24px;
     }
 
-    .about-paragraph {
-        font-size: 20px;
-    }
-
     #banner-phrase1 {
         font-size: 45px;
-        /* left: 20%;
-        top: 20%; */
     }
 
     #banner-phrase2 {
         font-size: 45px;
-        /* left: 20%;
-        top: 20%; */
     }
 
     .flex-row {
@@ -325,16 +315,14 @@ nav .nav-wrapper {
     }
 
     .about-paragraph {
-        font-size: 16px;
+        font-size: 20px;
     }
 
     #banner-phrase1 {
-        font-size: 40px;
         left: 10%;
     }
 
     #banner-phrase2 {
-        font-size: 40px;
         left: 25%;
     }
 
@@ -359,15 +347,23 @@ nav .nav-wrapper {
 @media only screen and (max-width: 500px) {
     body {
         background-image: url(../images/rainbow.jpg);
-        background-position: center 0%;
+        background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
     }
 }
 
 @media only screen and (max-width: 390px) {
+    #banner-phrase1 {
+        left: 8%;
+    }
+
+    #banner-phrase2 {
+        left: 14%;
+    }
+
     .about-paragraph {
-        font-size: 14px;
+        font-size: 18px;
     }
 
 }
