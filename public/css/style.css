@@ -355,28 +355,51 @@ nav .nav-wrapper {
     .connect-link {
         margin-left: 0;
     }
+
+    .social-link {
+        width: 50px;
+        height: 50px;
+    }
 }
 
-/* @media only screen and (max-width: 500px) {
-    body {
-        background-image: url(../images/rainbow.jpg);
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-} */
-
 @media only screen and (max-width: 390px) {
+    .link-item {
+        font-size: 16px;
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+
     #banner-phrase1 {
         left: 8%;
+        font-size: 25;
     }
 
     #banner-phrase2 {
         left: 14%;
+        font-size: 25;
+    }
+
+    .about-paragraph {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 340px) {
+    #banner-phrase1 {
+        left: 8%;
+        font-size: 20;
+    }
+
+    #banner-phrase2 {
+        left: 14%;
+        font-size: 20;
     }
 
     .about-paragraph {
         font-size: 18px;
     }
 
+    .link-title {
+        margin-left: 0;
+    }
 }
