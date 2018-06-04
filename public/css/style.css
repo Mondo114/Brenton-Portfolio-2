@@ -12,7 +12,7 @@ body:before {
     height: 100%;
     z-index: -10;
     background: url(../images/rainbow.jpg) no-repeat center center;
-    -webkit-background-size: cover;
+    -webkit-background-size: cover !important;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
