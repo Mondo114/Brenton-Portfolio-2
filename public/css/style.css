@@ -13,7 +13,7 @@ body:before {
     z-index: -10;
     background: url(../images/rainbow.jpg);
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center 0%;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -317,8 +317,8 @@ nav .nav-wrapper {
 
 @media only screen and (max-width: 900px) {
     body, html {
-        overflow: auto !important;
-        max-height: 100% !important;
+        /* overflow: auto !important;
+        max-height: 100% !important; */
     }
     html {
         font-size: 20px;
