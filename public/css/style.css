@@ -1,6 +1,5 @@
 html {
     font-size: 28px;
-    /* width: 100%; */
 }
 
 body:before {
@@ -339,6 +338,9 @@ nav .nav-wrapper {
 }
 
 @media only screen and (max-width: 550px) {
+    body:before {
+        background: linear-gradient(rgb(89, 5, 128), rgb(131, 214, 235), rgb(248, 148, 165), rgb(106, 209, 178));
+    }
     .link-item {
         font-size: 20px;
         padding-left: 12px;
