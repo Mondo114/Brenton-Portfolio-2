@@ -342,7 +342,7 @@ nav .nav-wrapper {
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
-        /* transform: translate3d(0,0,0); */
+        transform: translate3d(0,0,0);
     }
     .link-item {
         font-size: 20px;
