@@ -1,23 +1,26 @@
 html {
     font-size: 28px;
-    background: url(../images/rainbow.jpg);
-    background-position: center 5%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+    width: 100%;
 }
 
-body {
-  
-    /* -webkit-background-size: cover !important;
+body:before {
+    content: "";
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -10;
+    background: url(../images/rainbow.jpg) no-repeat center center;
+    -webkit-background-size: cover !important;
     -moz-background-size: cover;
     -o-background-size: cover;
-    height: 100%;
-    overflow: hidden; */
+    background-size: cover;
 }
 
 nav {
-    max-width: 100%;
+    width: 100%;
     height: 70px;
     line-height: 70px;
     transition: all 0.5s ease;
@@ -106,7 +109,6 @@ nav .nav-wrapper {
     background-position: center 80%;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
     height: 500px;
     z-index: 999;
     border-bottom: 2px solid white;
@@ -272,8 +274,8 @@ nav .nav-wrapper {
     padding-top: 55px;
 }
 
-
 /* Media Queries */
+
 @media only screen and (max-width: 1300px) {
     #banner-phrase1,
     #banner-phrase2 {
@@ -336,14 +338,6 @@ nav .nav-wrapper {
 }
 
 @media only screen and (max-width: 550px) {
-    html {
-        background: linear-gradient(rgb(253, 171, 185), rgb(89, 5, 128), rgb(131, 214, 235), rgb(255, 255, 255) 90%);
-        background-position: center 5%;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
-        transform: translate3d(0,0,0);
-    }
     .link-item {
         font-size: 20px;
         padding-left: 12px;
