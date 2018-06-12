@@ -348,6 +348,7 @@ nav .nav-wrapper {
         height: 100%;
         z-index: -10;
         background: linear-gradient(rgb(248, 148, 165), rgb(89, 5, 128), rgb(131, 214, 235), rgb(106, 209, 178));
+        transform: translate3d(0,0,0);
     }
     .link-item {
         font-size: 20px;
