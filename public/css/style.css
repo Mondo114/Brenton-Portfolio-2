@@ -339,7 +339,15 @@ nav .nav-wrapper {
 
 @media only screen and (max-width: 550px) {
     body:before {
-        background: linear-gradient(rgb(89, 5, 128), rgb(131, 214, 235), rgb(248, 148, 165), rgb(106, 209, 178));
+        content: "";
+        display: block;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -10;
+        background: linear-gradient(rgb(248, 148, 165), rgb(89, 5, 128), rgb(131, 214, 235), rgb(106, 209, 178));
     }
     .link-item {
         font-size: 20px;
