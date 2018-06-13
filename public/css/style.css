@@ -1,6 +1,6 @@
 html {
     font-size: 28px;
-    width: 100%;
+    /* width: 100%; */
     z-index: 0;
 }
 
@@ -14,7 +14,7 @@ body:before {
     height: 100%;
     z-index: -10;
     background: url(../images/rainbow.jpg);
-    background-position: center center;
+    background-position: center 5%;
     background-repeat: no-repeat;
     -webkit-background-size: cover !important;
     -moz-background-size: cover;
@@ -23,8 +23,8 @@ body:before {
 }
 
 html, body {
-    max-width: 100%;
-    overflow-x: hidden;
+    max-width: 100% !important;
+    overflow-x: hidden !important;
 }
 
 nav {
