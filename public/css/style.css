@@ -184,17 +184,14 @@ nav .nav-wrapper {
 
 .skills-box {
     display: inline-block;
+    text-align: center;
+    padding-bottom: 22px !important;
 }
 
-.icon-section {
+.icon-div {
     text-align: center;
     display: inline-block;
-}
-
-.skills-icon-row1,
-.skills-icon-row2,
-.skills-icon-row3 {
-    text-align: center;
+    padding: 10px;
 }
 
 .skills-icon-row3 {
@@ -204,19 +201,11 @@ nav .nav-wrapper {
 .skills-image {
     width: 80px;
     height: auto;
-    -webkit-transform: scale(0.8);
-    -moz-transform: scale(0.8);
-    -ms-transform: scale(0.8);
-    transform: scale(0.8);
 }
 
 .skills-label {
     font-size: 0.79rem;
     margin-top: 0;
-    -webkit-transform: scale(0.8);
-    -moz-transform: scale(0.8);
-    -ms-transform: scale(0.8);
-    transform: scale(0.8);
 }
 
 #css3 {
@@ -228,8 +217,8 @@ nav .nav-wrapper {
 }
 
 #materialize {
-    width: 120px;
-    margin-bottom: 4px;
+    width: 100px;
+    margin-bottom: 12px;
 }
 
 #heroku {
@@ -286,7 +275,7 @@ nav .nav-wrapper {
     opacity: 0.8;
 }
 
-.footer-section {
+.connect-section {
     font-family: 'Antic', sans-serif;
 }
 
@@ -416,6 +405,12 @@ nav .nav-wrapper {
     .right,
     .social-link-mini {
         visibility: hidden;
+    }
+    .link-title {
+        display: inline-block;
+        position: absolute;
+        margin: 30px;
+        margin-left: 10px;
     }
 }
 
