@@ -444,6 +444,12 @@ nav .nav-wrapper {
     .link-item:hover {
         background-color: black;
     }
+    .work-image:hover {
+        opacity: 1;
+    }
+    .social-link:hover {
+        opacity: 1;
+    }
     .link-title a:before {
         background-color: white;
     }
