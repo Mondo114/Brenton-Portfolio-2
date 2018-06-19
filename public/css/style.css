@@ -247,6 +247,7 @@ nav .nav-wrapper {
 .app-title {
     text-align: center;
     color: black;
+    font-weight: bold;
 }
 
 .flex-row {
@@ -268,6 +269,13 @@ nav .nav-wrapper {
     width: 100%;
     border: 3px solid rgb(133, 240, 133);
     border-radius: 10px;
+}
+
+.frijit-img {
+    width: 100%;
+    border: 3px solid rgb(133, 240, 133);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.5), 0 17px 32px 0 rgba(0, 0, 0, 0.5);
 }
 
 .work-image:hover {
@@ -296,6 +304,15 @@ nav .nav-wrapper {
     margin: 10px;
     border: 3px solid rgb(133, 240, 133);
     border-radius: 10px;
+}
+
+.linkedin-link {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    border: 3px solid rgb(133, 240, 133);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.5), 0 17px 32px 0 rgba(0, 0, 0, 0.5);
 }
 
 .social-link:hover {
