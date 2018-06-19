@@ -161,7 +161,7 @@ nav .nav-wrapper {
     margin-bottom: 80px;
 }
 
-.about-paragraph {
+.card-paragraph {
     font-size: 24px;
     font-family: 'Raleway', sans-serif;
 }
@@ -251,7 +251,6 @@ nav .nav-wrapper {
 
 .flex-row {
     display: flex;
-    align-items: center;
     justify-content: space-between;
 }
 
@@ -267,8 +266,8 @@ nav .nav-wrapper {
 
 .work-image {
     width: 100%;
-    border-radius: 5px;
-    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.5), 0 17px 32px 0 rgba(0, 0, 0, 0.5);
+    border: 3px solid rgb(133, 240, 133);
+    border-radius: 10px;
 }
 
 .work-image:hover {
@@ -295,9 +294,8 @@ nav .nav-wrapper {
     width: 80px;
     height: 80px;
     margin: 10px;
-    border: 2px solid rgb(133, 240, 133);
+    border: 3px solid rgb(133, 240, 133);
     border-radius: 10px;
-    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.5), 0 17px 32px 0 rgba(0, 0, 0, 0.5);
 }
 
 .social-link:hover {
@@ -351,7 +349,7 @@ nav .nav-wrapper {
     #banner-phrase2 {
         font-size: 50px;
     }
-    .about-paragraph {
+    .card-paragraph {
         font-size: 22px;
     }
 }
@@ -393,7 +391,7 @@ nav .nav-wrapper {
     html {
         font-size: 20px;
     }
-    .about-paragraph {
+    .card-paragraph {
         font-size: 20px;
     }
     #banner-phrase1 {
@@ -416,9 +414,9 @@ nav .nav-wrapper {
 
 @media only screen and (max-width: 550px) {
     .link-item {
-        font-size: 16px;
-        padding-left: 12px;
-        padding-right: 12px;
+        font-size: 18px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     .connect-link {
         margin-left: 0;
@@ -438,7 +436,7 @@ nav .nav-wrapper {
         left: 14%;
         font-size: 25;
     }
-    .about-paragraph {
+    .card-paragraph {
         font-size: 18px;
     }
     .link-item:hover {
@@ -468,7 +466,7 @@ nav .nav-wrapper {
         left: 14%;
         font-size: 20;
     }
-    .about-paragraph {
+    .card-paragraph {
         font-size: 18px;
     }
 }
