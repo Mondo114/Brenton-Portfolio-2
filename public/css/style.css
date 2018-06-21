@@ -245,6 +245,10 @@ nav .nav-wrapper {
     margin-bottom: 80px;
 }
 
+.work-box {
+    padding-bottom: 20px !important;
+}
+
 .app-title {
     text-align: center;
     color: black;
