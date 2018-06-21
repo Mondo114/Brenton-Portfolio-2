@@ -120,6 +120,7 @@ nav .nav-wrapper {
     height: 500px;
     z-index: 999;
     border-bottom: 2px solid white;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.5), 0 17px 32px 0 rgba(0, 0, 0, 0.5);
 }
 
 #banner-phrase1 {
@@ -162,8 +163,9 @@ nav .nav-wrapper {
 }
 
 .card-paragraph {
-    font-size: 24px;
+    font-size: 22px;
     font-family: 'Raleway', sans-serif;
+    text-indent: 50px;
 }
 
 .about-section {
@@ -250,11 +252,6 @@ nav .nav-wrapper {
     font-weight: bold;
 }
 
-.flex-row {
-    display: flex;
-    justify-content: space-between;
-}
-
 .project {
     width: calc(50% - 10px);
     margin-top: 20px;
@@ -273,6 +270,12 @@ nav .nav-wrapper {
 
 .work-image:hover {
     opacity: 0.8;
+}
+
+.github-repo {
+    font-size: 22px;
+    font-family: 'Raleway', sans-serif;
+    position: relative;
 }
 
 .connect-section {
@@ -309,16 +312,16 @@ nav .nav-wrapper {
     margin: 30px;
 }
 
-.link-title a {
+.link-title a, .github-repo {
     color: blue;
     text-decoration: none;
 }
 
-.link-title a:hover {
+.link-title a:hover, .github-repo:hover {
     color: blue;
 }
 
-.link-title a:before {
+.link-title a:before, .github-repo:before {
     content: "";
     position: absolute;
     width: 100%;
@@ -333,7 +336,7 @@ nav .nav-wrapper {
     transition: all 0.3s ease-in-out 0s;
 }
 
-.link-title a:hover:before {
+.link-title a:hover:before, .github-repo:hover:before {
     visibility: visible;
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
@@ -364,9 +367,6 @@ nav .nav-wrapper {
     }
     #banner-phrase2 {
         font-size: 45px;
-    }
-    .flex-row {
-        flex-direction: column;
     }
     .project {
         width: 90%;
