@@ -522,7 +522,7 @@ nav .nav-wrapper {
     .social-link:hover {
         opacity: 1;
     }
-    .link-title a:before {
+    .link-title a:before, .github-repo:before {
         background-color: white;
     }
 }
