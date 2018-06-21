@@ -163,7 +163,7 @@ nav .nav-wrapper {
 }
 
 .card-paragraph {
-    font-size: 22px;
+    font-size: 21px;
     font-family: 'Raleway', sans-serif;
     text-indent: 50px;
 }
@@ -252,6 +252,13 @@ nav .nav-wrapper {
     font-weight: bold;
 }
 
+.app-subtitle {
+    text-align: center;
+    color: black;
+    font-size: 16px;
+    margin-top: -10px;
+}
+
 .project {
     width: calc(50% - 10px);
     margin-top: 20px;
@@ -273,7 +280,7 @@ nav .nav-wrapper {
 }
 
 .github-repo {
-    font-size: 22px;
+    font-size: 21px;
     font-family: 'Raleway', sans-serif;
     position: relative;
 }
@@ -346,15 +353,15 @@ nav .nav-wrapper {
     padding-top: 55px;
 }
 
-/* Media Queries */
 
+/* Media Queries */
 @media only screen and (max-width: 1300px) {
     #banner-phrase1,
     #banner-phrase2 {
         font-size: 50px;
     }
     .card-paragraph {
-        font-size: 22px;
+        font-size: 20px;
     }
 }
 
@@ -393,7 +400,7 @@ nav .nav-wrapper {
         font-size: 20px;
     }
     .card-paragraph {
-        font-size: 20px;
+        font-size: 19px;
     }
     #banner-phrase1 {
         left: 10%;
@@ -414,6 +421,9 @@ nav .nav-wrapper {
 }
 
 @media only screen and (max-width: 550px) {
+    .card-paragraph {
+        text-indent: 40px;
+    }
     .link-item {
         font-size: 18px;
         padding-left: 10px;
@@ -468,6 +478,6 @@ nav .nav-wrapper {
         font-size: 20;
     }
     .card-paragraph {
-        font-size: 18px;
+        font-size: 17px;
     }
 }
