@@ -255,7 +255,7 @@ nav .nav-wrapper {
     text-align: center;
     color: black;
     font-size: 16px;
-    margin-top: -10px;
+    margin-top: -24px;
 }
 
 .project {
@@ -318,16 +318,19 @@ nav .nav-wrapper {
     margin: 30px;
 }
 
-.link-title a, .github-repo {
+.link-title a,
+.github-repo {
     color: blue;
     text-decoration: none;
 }
 
-.link-title a:hover, .github-repo:hover {
+.link-title a:hover,
+.github-repo:hover {
     color: blue;
 }
 
-.link-title a:before, .github-repo:before {
+.link-title a:before,
+.github-repo:before {
     content: "";
     position: absolute;
     width: 100%;
@@ -342,7 +345,8 @@ nav .nav-wrapper {
     transition: all 0.3s ease-in-out 0s;
 }
 
-.link-title a:hover:before, .github-repo:hover:before {
+.link-title a:hover:before,
+.github-repo:hover:before {
     visibility: visible;
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
@@ -352,10 +356,23 @@ nav .nav-wrapper {
     padding-top: 55px;
 }
 
-
 /* Media Queries */
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+    #banner-phrase1 {
+        left: 25%;
+        top: 10%;
+    }
+    #banner-phrase2 {
+        left: 38%;
+        top: 15%;
+    }
+}
+
 @media only screen and (max-width: 1300px) {
-    #banner-phrase1,
+    #banner-phrase1 {
+        font-size: 50px;
+    }
     #banner-phrase2 {
         font-size: 50px;
     }
@@ -415,9 +432,11 @@ nav .nav-wrapper {
     }
     #banner-phrase1 {
         left: 10%;
+        top: 12%;
     }
     #banner-phrase2 {
         left: 25%;
+        top: 19%;
     }
     .right,
     .social-link-mini {
@@ -431,14 +450,40 @@ nav .nav-wrapper {
     }
 }
 
+
 @media only screen and (max-width: 550px) {
     .link-item {
         font-size: 18px;
         padding-left: 8px;
         padding-right: 8px;
     }
+    #banner-phrase1 {
+        top: 16%;
+    }
+    #banner-phrase2 {
+        top: 25%;
+    }
     .card-paragraph {
         font-size: 14px;
+    }
+    .skills-image {
+        -webkit-transform: scale(0.6);
+        /* Saf3.1+, Chrome */
+        -moz-transform: scale(0.6);
+        /* FF3.5+ */
+        -ms-transform: scale(0.6);
+        /* IE9 */
+        -o-transform: scale(0.6);
+        /* Opera 10.5+ */
+        transform: scale(0.6);
+        /* IE6–IE9 */
+        filter: progid:DXImageTransform.Microsoft.Matrix(M11=0.9999619230641713, M12=-0.008726535498373935, M21=0.008726535498373935, M22=0.9999619230641713, SizingMethod='auto expand');
+    }
+    .icon-div {
+        padding: 0 !important;
+    }
+    .skills-inner-box {
+        margin: -1px;
     }
     .github-repo {
         font-size: 14px;
@@ -484,11 +529,11 @@ nav .nav-wrapper {
         padding-right: 5px;
     }
     #banner-phrase1 {
-        left: 8%;
-        font-size: 20;
+        left: 4%;
+        top: 20%;
     }
     #banner-phrase2 {
-        left: 14%;
-        font-size: 20;
+        left: 8%;
+        top: 30%;
     }
 }
