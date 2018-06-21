@@ -165,7 +165,6 @@ nav .nav-wrapper {
 .card-paragraph {
     font-size: 21px;
     font-family: 'Raleway', sans-serif;
-    text-indent: 50px;
 }
 
 .about-section {
@@ -363,6 +362,12 @@ nav .nav-wrapper {
     .card-paragraph {
         font-size: 20px;
     }
+    .github-repo {
+        font-size: 20px;
+    }
+    .app-subtitle {
+        font-size: 15px;
+    }
 }
 
 @media only screen and (max-width: 1090px) {
@@ -402,6 +407,12 @@ nav .nav-wrapper {
     .card-paragraph {
         font-size: 19px;
     }
+    .github-repo {
+        font-size: 19px;
+    }
+    .app-subtitle {
+        font-size: 14px;
+    }
     #banner-phrase1 {
         left: 10%;
     }
@@ -421,13 +432,19 @@ nav .nav-wrapper {
 }
 
 @media only screen and (max-width: 550px) {
-    .card-paragraph {
-        text-indent: 40px;
-    }
     .link-item {
         font-size: 18px;
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    .card-paragraph {
+        font-size: 14px;
+    }
+    .github-repo {
+        font-size: 14px;
+    }
+    .app-subtitle {
+        font-size: 13px;
     }
     .connect-link {
         margin-left: 0;
@@ -446,9 +463,6 @@ nav .nav-wrapper {
     #banner-phrase2 {
         left: 14%;
         font-size: 25;
-    }
-    .card-paragraph {
-        font-size: 18px;
     }
     .link-item:hover {
         background-color: black;
@@ -476,8 +490,5 @@ nav .nav-wrapper {
     #banner-phrase2 {
         left: 14%;
         font-size: 20;
-    }
-    .card-paragraph {
-        font-size: 17px;
     }
 }
