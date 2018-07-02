@@ -117,7 +117,6 @@ nav .nav-wrapper {
     background-position: center 80%;
     background-repeat: no-repeat;
     background-size: cover;
-    /* text-align: center; */
     height: 500px;
     z-index: 999;
     border-bottom: 2px solid white;
@@ -134,15 +133,6 @@ nav .nav-wrapper {
     font-size: 60px;
     text-shadow: 2px 2px 0px white;
 }
-
-/* #banner-phrase2 {
-    position: absolute;
-    top: 26%;
-    left: 61%;
-    font-family: 'Antic', sans-serif;
-    font-size: 60px;
-    text-shadow: 2px 2px 0px white;
-} */
 
 .border-div {
     text-align: center;
@@ -364,18 +354,6 @@ nav .nav-wrapper {
 }
 
 /* Media Queries */
-
-/* @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
-    #banner-phrase1 {
-        left: 25%;
-        top: 10%;
-    }
-    #banner-phrase2 {
-        left: 38%;
-        top: 15%; 
-    }
-} */
-
 @media only screen and (max-width: 1300px) {
     #banner-phrase1 {
         font-size: 50px;
@@ -461,12 +439,6 @@ nav .nav-wrapper {
         padding-left: 8px;
         padding-right: 8px;
     }
-    /* #banner-phrase1 {
-        top: 16%;
-    }
-    #banner-phrase2 {
-        top: 25%;
-    } */
     .card-paragraph {
         font-size: 14px;
     }
@@ -506,11 +478,9 @@ nav .nav-wrapper {
 
 @media only screen and (max-width: 390px) {
     #banner-phrase1 {
-        /* left: 8%; */
         font-size: 25;
     }
     #banner-phrase2 {
-        /* left: 14%; */
         font-size: 25;
     }
     .link-item:hover {
@@ -536,8 +506,4 @@ nav .nav-wrapper {
         left: 4%;
         top: 20%;
     }
-    /* #banner-phrase2 {
-        left: 8%;
-        top: 30%;
-    } */
 }
