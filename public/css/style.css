@@ -359,9 +359,19 @@ nav .nav-wrapper {
     transform: scaleX(1);
 }
 
-.footer-name {
-    padding-top: 55px;
+.jelly-div {
+    text-align: center;
+    padding: 60px;
 }
+
+.jelly-img {
+    max-width: 200px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.5), 0 17px 32px 0 rgba(0, 0, 0, 0.5);
+}
+
 
 /* Media Queries */
 @media only screen and (max-width: 1300px) {
