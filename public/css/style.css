@@ -4,6 +4,16 @@ html {
     z-index: 0;
 }
 
+.site {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.site-content {
+    flex: 1;
+}
+
 body:before {
     content: "";
     display: block;
@@ -152,7 +162,7 @@ nav .nav-wrapper {
 
 .about-section {
     font-family: 'Antic', sans-serif;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
 
 .card-paragraph {
@@ -285,6 +295,7 @@ nav .nav-wrapper {
 
 .connect-box {
     height: 300px;
+    margin-bottom: 200px;
 }
 
 .input-field label {
@@ -352,21 +363,15 @@ nav .nav-wrapper {
     transform: scaleX(1);
 }
 
-/* .jelly-div {
+.jelly-div {
     text-align: center;
-    padding: 60px;
-} */
+}
 
-/* .logo-2 {
-    max-width: 200px;
-    padding: 20px;
-    border-radius: 5px;
-    background-color: white;
-    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.5), 0 17px 32px 0 rgba(0, 0, 0, 0.5);
-} */
+.logo-2 {
+    max-width: 100px;
+}
 
 .footer-name {
-    margin-top: 200px;
     font-size: 22px;
 }
 
