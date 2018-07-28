@@ -294,7 +294,6 @@ nav .nav-wrapper {
 }
 
 .connect-box {
-    height: 300px;
     margin-bottom: 200px;
 }
 
@@ -396,6 +395,10 @@ nav .nav-wrapper {
     html {
         font-size: 24px;
     }
+    .right,
+    .social-link-mini {
+        visibility: hidden;
+    }
     #banner-phrase1 {
         font-size: 45px;
         left: 17%;
@@ -430,10 +433,6 @@ nav .nav-wrapper {
     }
     .github-repo {
         font-size: 19px;
-    }
-    .right,
-    .social-link-mini {
-        visibility: hidden;
     }
     .link-title {
         display: inline-block;
