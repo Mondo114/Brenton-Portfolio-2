@@ -1,19 +1,23 @@
-// Navbar Disappear and Reappear
-function navbar() {      
-    var documentElem = $(document),
-        nav = $('nav'),
-        lastScrollTop = 0;
-    
-    documentElem.on('scroll', function() {
-        var currentScrollTop = $(this).scrollTop();
-        
-        //scroll down
-        if (currentScrollTop > lastScrollTop) nav.addClass('hidden');
-        //scroll up
-        else nav.removeClass('hidden');
-        
-        lastScrollTop = currentScrollTop;
-    });
-}
+$(document).ready(function() {
 
-navbar();
+    // Navbar Disappear and Reappear
+    function navbarHide() {
+        var documentElem = $(document),
+            nav = $('nav'),
+            lastScrollTop = 0;
+        
+        documentElem.on('scroll', function() {
+            var currentScrollTop = $(this).scrollTop();
+            
+            //scroll down
+            if (currentScrollTop > lastScrollTop) nav.addClass('hidden');
+            //scroll up
+            else nav.removeClass('hidden');
+            
+            lastScrollTop = currentScrollTop;
+        });
+    }
+    navbarHide();
+
+
+});
