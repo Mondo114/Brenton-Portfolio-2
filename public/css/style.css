@@ -10,10 +10,6 @@ html {
     flex-direction: column;
 }
 
-.site-content {
-    flex: 1;
-}
-
 body:before {
     content: "";
     display: block;
@@ -56,7 +52,6 @@ nav.hidden {
 nav .nav-wrapper {
     position: relative;
     height: 82px;
-    border-bottom: 2px solid black;
     background-color: black;
     border-bottom: 2px solid white;
 }
@@ -104,10 +99,11 @@ nav .nav-wrapper {
 }
 
 .social-link-mini {
-    width: 50px;
-    height: 50px;
-    border: 3px solid rgb(133, 240, 133);
-    border-radius: 7px;
+    width: 40px;
+    height: 40px;
+    border: 3px solid white;
+    border-radius: 10px;
+    margin-left: 5px;
 }
 
 .aboutme-mini {
@@ -118,10 +114,6 @@ nav .nav-wrapper {
     margin-right: 10px;
 }
 
-.header-section {
-    margin-bottom: 80px;
-}
-
 .banner {
     background-image: url(../images/watercolor1b.jpg);
     background-position: center 80%;
@@ -129,9 +121,8 @@ nav .nav-wrapper {
     background-size: cover;
     height: 500px;
     z-index: 999;
-    border-bottom: 2px solid white;
-    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.5), 0 17px 32px 0 rgba(0, 0, 0, 0.5);
     position: relative;
+    margin-bottom: 0;
 }
 
 #banner-phrase1 {
@@ -150,40 +141,43 @@ nav .nav-wrapper {
 }
 
 .paper-box {
-    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.5), 0 17px 32px 0 rgba(0, 0, 0, 0.5);
-    border-radius: 5px;
     background-color: white;
 }
 
 .card-title {
     text-align: center;
     font-family: 'Antic', sans-serif;
+    margin: 0;
+    padding-top: 30px;
 }
 
-.about-section {
-    font-family: 'Antic', sans-serif;
-    margin-bottom: 50px;
+.about-box {
+    height: 500px;
+}
+
+.separation {
+    border-bottom: 2px solid rgb(154, 219, 228);
+    width: 30%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+.writing-section {
+    margin: 0 auto;
+    width: 60%;
 }
 
 .card-paragraph {
     font-size: 19px;
     font-family: 'Raleway', sans-serif;
-}
+    padding-top: 20px;
 
-.about-section {
-    display: flex;
-    align-items: center;
 }
 
 .self-photo {
     width: 100%;
     height: auto;
     padding: 28px 10px 18px 10px;
-}
-
-.skills-section {
-    font-family: 'Antic', sans-serif;
-    margin-bottom: 80px;
 }
 
 .skills-paragraph {
@@ -195,6 +189,11 @@ nav .nav-wrapper {
     display: inline-block;
     text-align: center;
     padding-bottom: 22px !important;
+}
+
+.skills-inner-box {
+    width: 65%;
+    margin: 0 auto;
 }
 
 .icon-div {
@@ -293,7 +292,8 @@ nav .nav-wrapper {
 }
 
 .connect-box {
-    margin-bottom: 200px;
+    margin-bottom: 0;
+    text-align: center;
 }
 
 .input-field label {
@@ -309,36 +309,19 @@ nav .nav-wrapper {
     justify-content: center;
 }
 
-.social-link {
-    width: 60px;
-    height: 60px;
-    margin: 10px;
-    /* border: 3px solid rgb(133, 240, 133); */
-    border-radius: 5px;
+.connect-list a {
+    margin: 0 30px;
 }
 
-.social-link:hover {
-    opacity: 0.7;
-}
-
-/* .link-title {
-    display: inline-block;
-    position: absolute;
-    margin: 30px;
-} */
-
-.link-title a,
 .github-repo {
     color: blue;
     text-decoration: none;
 }
 
-.link-title a:hover,
 .github-repo:hover {
     color: blue;
 }
 
-.link-title a:before,
 .github-repo:before {
     content: "";
     position: absolute;
@@ -354,7 +337,6 @@ nav .nav-wrapper {
     transition: all 0.3s ease-in-out 0s;
 }
 
-.link-title a:hover:before,
 .github-repo:hover:before {
     visibility: visible;
     -webkit-transform: scaleX(1);
@@ -363,14 +345,16 @@ nav .nav-wrapper {
 
 .jelly-div {
     text-align: center;
+    margin-top: 60px;
 }
 
 .logo-2 {
-    max-width: 100px;
+    max-width: 70px;
 }
 
-.footer-name {
-    font-size: 22px;
+.footer {
+    font-size: 15px;
+    margin: 0;
 }
 
 /* Media Queries */
