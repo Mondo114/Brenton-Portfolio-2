@@ -1,7 +1,9 @@
 html {
-    font-size: 28px;
-    /* width: 100%; */
     z-index: 0;
+}
+
+.row {
+    margin: 0;
 }
 
 .site {
@@ -51,14 +53,15 @@ nav.hidden {
 
 nav .nav-wrapper {
     position: relative;
-    height: 82px;
+    height: 78px;
     background-color: black;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid #FFC370;
 }
 
 .link-item {
     padding: 0 25px 0px 25px;
     font-family: 'Antic', sans-serif;
+    font-size: 20px;
     border-radius: 5px;
 }
 
@@ -101,7 +104,7 @@ nav .nav-wrapper {
 .social-link-mini {
     width: 40px;
     height: 40px;
-    border: 3px solid white;
+    border: 3px solid #FFC370;
     border-radius: 10px;
     margin-left: 5px;
 }
@@ -115,11 +118,11 @@ nav .nav-wrapper {
 }
 
 .banner {
-    background-image: url(../images/watercolor1b.jpg);
-    background-position: center 80%;
+    background-image: url(../images/laguna.jpg);
+    background-position: center 15%;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
+    height: 700px;
     z-index: 999;
     position: relative;
     margin-bottom: 0;
@@ -147,16 +150,17 @@ nav .nav-wrapper {
 .card-title {
     text-align: center;
     font-family: 'Antic', sans-serif;
+    font-size: 34px;
     margin: 0;
     padding-top: 30px;
 }
 
 .about-box {
-    height: 500px;
+    height: 600px;
 }
 
 .separation {
-    border-bottom: 2px solid rgb(154, 219, 228);
+    border-bottom: 2px solid #ACCDDE;
     width: 30%;
     margin: 0 auto;
     padding-bottom: 10px;
@@ -164,36 +168,48 @@ nav .nav-wrapper {
 
 .writing-section {
     margin: 0 auto;
-    width: 60%;
+    width: 50%;
+    padding-bottom: 20px;
 }
 
 .card-paragraph {
     font-size: 19px;
     font-family: 'Raleway', sans-serif;
     padding-top: 20px;
-
 }
 
 .self-photo {
-    width: 100%;
+    float: right;
+    width: 500px;
     height: auto;
-    padding: 28px 10px 18px 10px;
+    padding: 20px;
+    margin-right: 50px;
 }
 
-.skills-paragraph {
-    padding-bottom: 20px;
-    text-align: left;
+.photo-section-1 {
+    height: 500px;
+    background-image: url(../images/solvang.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .skills-box {
     display: inline-block;
     text-align: center;
     padding-bottom: 22px !important;
+    height: 600px;
 }
 
 .skills-inner-box {
-    width: 65%;
-    margin: 0 auto;
+    width: 60%;
+    margin: 0 auto !important;
+}
+
+.skills-paragraph {
+    padding-bottom: 20px;
+    text-align: left;
 }
 
 .icon-div {
@@ -212,7 +228,7 @@ nav .nav-wrapper {
 }
 
 .skills-label {
-    font-size: 0.79rem;
+    font-size: 1rem;
     margin-top: 0;
 }
 
@@ -247,9 +263,13 @@ nav .nav-wrapper {
     width: 86px;
 }
 
-.work-section {
-    font-family: 'Antic', sans-serif;
-    margin-bottom: 80px;
+.photo-section-2 {
+    height: 500px;
+    background-image: url(../images/portland.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .work-box {
@@ -259,7 +279,7 @@ nav .nav-wrapper {
 .app-title {
     text-align: center;
     color: black;
-    font-weight: bold;
+    font-size: 24px;
 }
 
 .project {
@@ -281,10 +301,26 @@ nav .nav-wrapper {
     opacity: 0.7;
 }
 
+.work-card-paragraph {
+    font-size: 19px;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 0;
+}
+
 .github-repo {
     font-size: 19px;
     font-family: 'Raleway', sans-serif;
     position: relative;
+    padding-bottom: 20px;
+}
+
+.photo-section-3 {
+    height: 500px;
+    background-image: url(../images/redondo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .connect-section {
@@ -307,6 +343,7 @@ nav .nav-wrapper {
 .connect-list {
     display: flex;
     justify-content: center;
+    padding-top: 20px;
 }
 
 .connect-list a {
