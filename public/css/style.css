@@ -89,16 +89,21 @@ nav .nav-wrapper {
 }
 
 .social-link-mini {
-    width: 40px;
-    height: 40px;
-    border: 3px solid rgb(162, 218, 247);
-    border-radius: 10px;
+    width: 45px;
+    height: 45px;
     margin-left: 5px;
 }
 
 .social-link-mini:hover {
     -webkit-filter: brightness(116%);
     filter: brightness(116%);
+    transform: scale(1.2, 1.2);
+}
+
+.social-link-mini:active {
+    -webkit-filter: brightness(116%);
+    filter: brightness(116%);
+    transform: scale(0.8, 0.8);
 }
 
 .aboutme-mini {
@@ -124,7 +129,7 @@ nav .nav-wrapper {
 
 .title {
     position: absolute;
-    margin-top: -32px;
+    margin-top: -50px;
 }
 
 #banner-phrase1 {
@@ -137,7 +142,7 @@ nav .nav-wrapper {
 
 .subtitle {
     position: absolute;
-    margin-top: 56px;
+    margin-top: 60px;
 }
 
 #banner-phrase2 {
