@@ -514,6 +514,15 @@ nav .nav-wrapper {
     .card-paragraph {
         font-size: 14px;
     }
+    .photo-section-1 {
+        background-attachment: scroll;
+    }
+    .photo-section-2 {
+        background-attachment: scroll;
+    }
+    .photo-section-3 {
+        background-attachment: scroll;
+    }
     .work-card-paragraph {
         font-size: 14px;
     }
