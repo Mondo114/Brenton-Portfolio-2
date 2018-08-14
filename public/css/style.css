@@ -108,10 +108,12 @@ nav .nav-wrapper {
 
 .aboutme-mini {
     margin-right: 10px;
+    transform: scale(1.1, 1.1);
 }
 
 .aboutme-mini:hover {
     margin-right: 10px;
+    transform: scale(1.1, 1.1);
 }
 
 .banner {
@@ -171,7 +173,7 @@ nav .nav-wrapper {
 }
 
 .about-box {
-    height: 600px;
+    min-height: 600px;
     background: linear-gradient(rgb(162, 218, 247), rgb(236, 245, 250), white);
 }
 
@@ -198,7 +200,7 @@ nav .nav-wrapper {
     float: right;
     width: 500px;
     height: auto;
-    padding: 20px;
+    padding: 38px 20px 20px 20px;
     margin-right: 50px;
 }
 
@@ -215,7 +217,7 @@ nav .nav-wrapper {
     display: inline-block;
     text-align: center;
     padding-bottom: 22px !important;
-    height: 600px;
+    min-height: 600px;
 }
 
 .skills-inner-box {
@@ -434,20 +436,22 @@ nav .nav-wrapper {
 
 /* Media Queries */
 
-@media only screen and (max-width: 1300px) {
-    #banner-phrase1 {
-        font-size: 50px;
+@media only screen and (max-width: 1600px) {
+    .writing-section {
+        max-width: 75%;
     }
-    #banner-phrase2 {
-        font-size: 50px;
+    .self-photo {
+        max-width: 450px;
     }
-    .github-repo {
-        font-size: 20px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .self-photo {
+        max-width: 400px;
     }
-    /* .social-link {
-        width: 50px;
-        height: 50px;
-    } */
+    .writing-section {
+        width: 90%;
+    }
 }
 
 @media only screen and (max-width: 1090px) {
@@ -455,27 +459,18 @@ nav .nav-wrapper {
     .social-link-mini {
         visibility: hidden;
     }
-    #banner-phrase1 {
-        font-size: 45px;
-        /* left: 17%;
-        top: 25%; */
-    }
-    #banner-phrase2 {
-        font-size: 45px;
-    }
-    /* .project {
-        width: 90%;
-    } */
 }
 
 @media only screen and (max-width: 992px) {
-    /* .about-section {
-        display: inline;
-    } */
-    /* .photo-box {
-        margin-top: 80px;
-        margin-bottom: 80px;
-    } */
+    .card-paragraph {
+        font-size: 16px;
+    }
+    .work-card-paragraph {
+        font-size: 16px;
+    }
+    .github-repo {
+        font-size: 16px;
+    }
 }
 
 @media only screen and (max-width: 900px) {
@@ -484,17 +479,14 @@ nav .nav-wrapper {
         overflow: auto !important;
         max-height: 100% !important;
     }
-    /* .github-repo {
-        font-size: 19px;
-    } */
     .link-title {
         display: inline-block;
         position: absolute;
         margin: 30px;
         margin-left: 10px;
     }
-    #banner-phrase1 {
-        /* left: 10%; */
+    .self-photo {
+        max-width: 350px;
     }
 }
 
@@ -524,19 +516,14 @@ nav .nav-wrapper {
         padding: 0 !important;
     }
     .skills-inner-box {
-        margin: -1px;
+        /* margin: -1px; */
+        width: 100%;
+        margin: 0 auto !important;
     }
     .github-repo {
         font-size: 14px;
     }
-    .connect-link {
-        /* margin-left: 0; */
-    }
-    /* .social-link {
-        width: 40px;
-        height: 40px;
-        margin: 5px;
-    } */
+    
 }
 
 @media only screen and (max-width: 390px) {
