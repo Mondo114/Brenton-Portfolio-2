@@ -1,5 +1,7 @@
-html {
-    z-index: 0;
+html,
+body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
 }
 
 .row {
@@ -21,12 +23,6 @@ body:before {
     width: 100%;
     height: 100%;
     z-index: -10;
-}
-
-html,
-body {
-    max-width: 100% !important;
-    overflow-x: hidden !important;
 }
 
 nav {
@@ -420,7 +416,6 @@ nav .nav-wrapper {
     border-radius: 6px;
     padding: 5px 0;
     border: 1px solid black;
-    /* Position the tooltip */
     position: absolute;
     z-index: 1;
 }
@@ -475,6 +470,9 @@ nav .nav-wrapper {
         font-size: 16px;
     }
     .github-repo {
+        font-size: 16px;
+    }
+    .footer {
         font-size: 16px;
     }
 }
@@ -563,6 +561,9 @@ nav .nav-wrapper {
     }
     .connect-list a {
         margin: 0 10px;
+        font-size: 14px;
+    }
+    .footer {
         font-size: 14px;
     }
 }
