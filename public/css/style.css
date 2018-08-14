@@ -496,7 +496,30 @@ nav .nav-wrapper {
         padding-left: 8px;
         padding-right: 8px;
     }
+    #banner-phrase1 {
+        font-family: 'Krona One', sans-serif;
+        font-size: 14px;
+        color: black;
+        text-shadow: 2px 2px 0px rgb(162, 218, 247);
+        -webkit-text-stroke: 1px white;
+    }
+    #banner-phrase2 {
+        font-family: 'Krona One', sans-serif;
+        font-size: 14px;
+        color: black;
+        text-shadow: 2px 2px 0px rgb(162, 218, 247);
+        -webkit-text-stroke: 1px white;
+    }
+    .self-photo {
+        max-width: 225px;
+    }
     .card-paragraph {
+        font-size: 14px;
+    }
+    .work-card-paragraph {
+        font-size: 14px;
+    }
+    .github-repo {
         font-size: 14px;
     }
     .skills-image {
@@ -523,7 +546,19 @@ nav .nav-wrapper {
     .github-repo {
         font-size: 14px;
     }
-    
+    .photo-section-1 {
+        height: 300px;
+    }
+    .photo-section-2 {
+        height: 300px;
+    }
+    .photo-section-3 {
+        height: 300px;
+    }
+    .connect-list a {
+        margin: 0 10px;
+        font-size: 12px;
+    }
 }
 
 @media only screen and (max-width: 390px) {
@@ -552,9 +587,5 @@ nav .nav-wrapper {
     .link-item {
         padding-left: 5px;
         padding-right: 5px;
-    }
-    #banner-phrase1 {
-        /* left: 4%;
-        top: 20%; */
     }
 }
