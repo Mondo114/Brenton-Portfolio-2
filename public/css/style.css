@@ -462,6 +462,9 @@ nav .nav-wrapper {
     .subtitle {
         margin-top: 160px;
     }
+    .jelly-div:hover .footnote {
+        visibility: hidden;
+    }
 }
 
 @media only screen and (max-width: 992px) {
@@ -500,18 +503,10 @@ nav .nav-wrapper {
         padding-right: 8px;
     }
     #banner-phrase1 {
-        font-family: 'Krona One', sans-serif;
-        font-size: 34px;
-        color: black;
-        text-shadow: 2px 2px 0px rgb(162, 218, 247);
-        -webkit-text-stroke: 1px white;
+        font-size: 42px;
     }
     #banner-phrase2 {
-        font-family: 'Krona One', sans-serif;
-        font-size: 24px;
-        color: black;
-        text-shadow: 2px 2px 0px rgb(162, 218, 247);
-        -webkit-text-stroke: 1px white;
+        font-size: 22px;
     }
     .self-photo {
         max-width: 318px;
@@ -584,7 +579,7 @@ nav .nav-wrapper {
         background-color: white;
     }
     .self-photo {
-        max-width: 265px;
+        max-width: 262px;
     }
 }
 
@@ -593,12 +588,8 @@ nav .nav-wrapper {
         padding-left: 5px;
         padding-right: 5px;
     }
-    #banner-phrase1 {
-        font-family: 'Krona One', sans-serif;
-        font-size: 40px;
-        color: black;
-        text-shadow: 2px 2px 0px rgb(162, 218, 247);
-        -webkit-text-stroke: 1px white;
+    #banner-phrase2 {
+        font-size: 20px;
     }
     .self-photo {
         max-width: 225px;
