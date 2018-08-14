@@ -478,11 +478,6 @@ nav .nav-wrapper {
 }
 
 @media only screen and (max-width: 900px) {
-    body,
-    html {
-        overflow: auto !important;
-        max-height: 100% !important;
-    }
     .link-title {
         display: inline-block;
         position: absolute;
