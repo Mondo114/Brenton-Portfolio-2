@@ -131,7 +131,7 @@ nav .nav-wrapper {
 
 .title {
     position: absolute;
-    margin-top: -50px;
+    margin-top: -70px;
 }
 
 #banner-phrase1 {
@@ -140,6 +140,7 @@ nav .nav-wrapper {
     color: black;
     text-shadow: 2px 2px 0px rgb(162, 218, 247);
     -webkit-text-stroke: 2px white;
+    text-align: center;
 }
 
 .subtitle {
@@ -153,6 +154,7 @@ nav .nav-wrapper {
     color: black;
     text-shadow: 2px 2px 0px rgb(162, 218, 247);
     -webkit-text-stroke: 1px white;
+    text-align: center;
 }
 
 .border-div {
@@ -418,7 +420,6 @@ nav .nav-wrapper {
     border-radius: 6px;
     padding: 5px 0;
     border: 1px solid black;
-
     /* Position the tooltip */
     position: absolute;
     z-index: 1;
@@ -432,7 +433,6 @@ nav .nav-wrapper {
     font-size: 19px;
     margin: 0;
 }
-
 
 /* Media Queries */
 
@@ -458,6 +458,9 @@ nav .nav-wrapper {
     .right,
     .social-link-mini {
         visibility: hidden;
+    }
+    .subtitle {
+        margin-top: 160px;
     }
 }
 
@@ -498,20 +501,20 @@ nav .nav-wrapper {
     }
     #banner-phrase1 {
         font-family: 'Krona One', sans-serif;
-        font-size: 14px;
+        font-size: 34px;
         color: black;
         text-shadow: 2px 2px 0px rgb(162, 218, 247);
         -webkit-text-stroke: 1px white;
     }
     #banner-phrase2 {
         font-family: 'Krona One', sans-serif;
-        font-size: 14px;
+        font-size: 24px;
         color: black;
         text-shadow: 2px 2px 0px rgb(162, 218, 247);
         -webkit-text-stroke: 1px white;
     }
     .self-photo {
-        max-width: 225px;
+        max-width: 318px;
     }
     .card-paragraph {
         font-size: 14px;
@@ -539,7 +542,6 @@ nav .nav-wrapper {
         padding: 0 !important;
     }
     .skills-inner-box {
-        /* margin: -1px; */
         width: 100%;
         margin: 0 auto !important;
     }
@@ -557,7 +559,7 @@ nav .nav-wrapper {
     }
     .connect-list a {
         margin: 0 10px;
-        font-size: 12px;
+        font-size: 14px;
     }
 }
 
@@ -581,11 +583,27 @@ nav .nav-wrapper {
     .github-repo:before {
         background-color: white;
     }
+    .self-photo {
+        max-width: 265px;
+    }
 }
 
 @media only screen and (max-width: 340px) {
     .link-item {
         padding-left: 5px;
         padding-right: 5px;
+    }
+    #banner-phrase1 {
+        font-family: 'Krona One', sans-serif;
+        font-size: 40px;
+        color: black;
+        text-shadow: 2px 2px 0px rgb(162, 218, 247);
+        -webkit-text-stroke: 1px white;
+    }
+    .self-photo {
+        max-width: 225px;
+    }
+    .connect-list a {
+        font-size: 12px;
     }
 }
