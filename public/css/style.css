@@ -509,7 +509,7 @@ nav .nav-wrapper {
         font-size: 30px;
     }
     .self-photo {
-        max-width: 318px;
+        max-width: 314px;
     }
     .card-paragraph {
         font-size: 14px;
@@ -588,7 +588,35 @@ nav .nav-wrapper {
         background-color: white;
     }
     .self-photo {
-        max-width: 260px;
+        max-width: 276px;
+    }
+}
+
+@media only screen and (width: 390px) {
+    #banner-phrase1 {
+        font-size: 25;
+    }
+    #banner-phrase2 {
+        font-size: 25;
+    }
+    .link-item:hover {
+        background-color: black;
+    }
+    .work-image:hover {
+        opacity: 1;
+    }
+    .social-link:hover {
+        opacity: 1;
+    }
+    .link-title a:before,
+    .github-repo:before {
+        background-color: white;
+    }
+}
+
+@media only screen and (width: 360px) {
+    .self-photo {
+        max-width: 262px;
     }
 }
 
@@ -601,7 +629,7 @@ nav .nav-wrapper {
         font-size: 24px;
     }
     .self-photo {
-        max-width: 225px;
+        max-width: 220px;
     }
     .connect-list a {
         font-size: 12px;
