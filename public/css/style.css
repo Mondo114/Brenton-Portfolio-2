@@ -326,7 +326,7 @@ nav .nav-wrapper {
 
 .github-repo {
     font-size: 19px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     position: relative;
     padding-bottom: 20px;
     color: blue;
@@ -426,7 +426,8 @@ nav .nav-wrapper {
 }
 
 .footer {
-    font-size: 19px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
 }
 
@@ -471,9 +472,6 @@ nav .nav-wrapper {
         font-size: 16px;
     }
     .github-repo {
-        font-size: 16px;
-    }
-    .footer {
         font-size: 16px;
     }
 }
@@ -557,9 +555,6 @@ nav .nav-wrapper {
     }
     .connect-list a {
         margin: 0 10px;
-        font-size: 14px;
-    }
-    .footer {
         font-size: 14px;
     }
 }
