@@ -49,7 +49,7 @@ nav .nav-wrapper {
 
 .link-item {
     padding: 0 25px 0px 25px;
-    font-family: 'Antic', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     border-radius: 5px;
     color: white;
@@ -164,7 +164,7 @@ nav .nav-wrapper {
 
 .card-title {
     text-align: center;
-    font-family: 'Antic', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 34px;
     margin: 0;
     padding-top: 30px;
@@ -190,7 +190,7 @@ nav .nav-wrapper {
 
 .card-paragraph {
     font-size: 19px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     padding-top: 20px;
 }
 
@@ -296,6 +296,7 @@ nav .nav-wrapper {
     text-align: center;
     color: black;
     font-size: 24px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .project {
@@ -319,13 +320,13 @@ nav .nav-wrapper {
 
 .work-card-paragraph {
     font-size: 19px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     padding-top: 0;
 }
 
 .github-repo {
     font-size: 19px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     position: relative;
     padding-bottom: 20px;
     color: blue;
@@ -426,6 +427,7 @@ nav .nav-wrapper {
 
 .footer {
     font-size: 19px;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
 }
 
