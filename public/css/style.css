@@ -505,6 +505,10 @@ nav .nav-wrapper {
     .social-link-mini {
         visibility: hidden;
     }
+    .banner {
+        background-position: center -78%;
+        height: 600px;
+    }
     .jelly-div:hover .footnote {
         visibility: hidden;
     }
