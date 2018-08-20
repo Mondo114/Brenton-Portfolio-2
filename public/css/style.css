@@ -137,7 +137,7 @@ nav .nav-wrapper {
 
 .subtitle {
     position: absolute;
-    margin-top: 110px;
+    margin-top: 90px;
 }
 
 #banner-phrase2 {
@@ -482,7 +482,7 @@ nav .nav-wrapper {
         margin-top: -105px;
     }
     .subtitle {
-        margin-top: 170px;
+        margin-top: 90px;
     }
     @-moz-document url-prefix() {
         .title {
