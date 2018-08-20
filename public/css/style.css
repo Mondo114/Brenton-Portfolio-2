@@ -452,6 +452,9 @@ nav .nav-wrapper {
     .writing-section {
         max-width: 75%;
     }
+    .card-paragraph:first-of-type {
+        padding: 10px 0 10px 0;
+    }
     .self-photo {
         max-width: 450px;
         padding: 25px 25px 0 25px;
@@ -534,6 +537,9 @@ nav .nav-wrapper {
     .photo-section-3 {
         background-attachment: scroll;
     }
+    .project {
+        margin-top: 0;
+    }
     .work-card-paragraph {
         font-size: 14px;
     }
@@ -571,6 +577,9 @@ nav .nav-wrapper {
     }
     .photo-section-3 {
         height: 300px;
+    }
+    .connect-list {
+        padding-top: 0px;
     }
     .connect-list a {
         margin: 0 10px;
