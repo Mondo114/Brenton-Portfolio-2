@@ -123,7 +123,7 @@ nav .nav-wrapper {
 
 .title {
     position: absolute;
-    margin-top: -50px;
+    margin-top: -20px;
 }
 
 #banner-phrase1 {
@@ -131,22 +131,28 @@ nav .nav-wrapper {
     font-size: 60px;
     color: black;
     text-align: center;
-    text-shadow: 2px 1px 0px rgb(255, 208, 106);
+    text-shadow: 3px 2px 0px rgb(255, 208, 106);
     /* -webkit-text-stroke: 2px rgb(255, 208, 106); */
 }
 
 .subtitle {
     position: absolute;
-    margin-top: 70px;
+    margin-top: 110px;
 }
 
 #banner-phrase2 {
     font-family: 'Prosto One', cursive;
     font-size: 32px;
-    color: black;
+    color: white;
     text-align: center;
-    text-shadow: 2px 1px 0px rgb(255, 208, 106);
+    /* text-shadow: 2px 1px 0px rgb(255, 208, 106); */
     /* -webkit-text-stroke: 1px rgb(255, 208, 106); */
+}
+
+@-moz-document url-prefix() {
+    .subtitle {
+        margin-top: 200px;
+    }
 }
 
 .border-div {
@@ -464,10 +470,18 @@ nav .nav-wrapper {
 
 @media only screen and (max-width: 1200px) {
     .title {
-        margin-top: -130px;
+        margin-top: -105px;
     }
     .subtitle {
-        margin-top: -20px;
+        margin-top: 170px;
+    }
+    @-moz-document url-prefix() {
+        .title {
+            margin-top: -200px;
+        }
+        .subtitle {
+            margin-top: 400px;
+        }
     }
     .self-photo {
         max-width: 400px;
@@ -511,6 +525,15 @@ nav .nav-wrapper {
     }
 }
 
+@media only screen and (max-width: 700px) {
+    #banner-phrase1 {
+        font-size: 50px;
+    }
+    #banner-phrase2 {
+        font-size: 30px;
+    }
+}
+
 @media only screen and (max-width: 550px) {
     .link-item {
         font-size: 18px;
@@ -518,10 +541,10 @@ nav .nav-wrapper {
         padding-right: 8px;
     }
     #banner-phrase1 {
-        font-size: 42px;
+        font-size: 34px;
     }
     #banner-phrase2 {
-        font-size: 30px;
+        font-size: 28px;
     }
     .self-photo {
         max-width: 314px;
@@ -589,12 +612,6 @@ nav .nav-wrapper {
 }
 
 @media only screen and (max-width: 390px) {
-    #banner-phrase1 {
-        font-size: 25;
-    }
-    #banner-phrase2 {
-        font-size: 25;
-    }
     .link-item:hover {
         background-color: black;
     }
@@ -640,6 +657,9 @@ nav .nav-wrapper {
         padding-left: 5px;
         padding-right: 5px;
     }
+    #banner-phrase1 {
+        font-size: 28px;
+    }
     #banner-phrase2 {
         font-size: 24px;
     }
@@ -650,3 +670,4 @@ nav .nav-wrapper {
         font-size: 12px;
     }
 }
+
