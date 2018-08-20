@@ -109,7 +109,7 @@ nav .nav-wrapper {
 }
 
 .banner {
-    background-image: url(../images/laguna.jpg);
+    background-image: url(../images/laguna-1.jpg);
     background-position: center 20%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -482,7 +482,7 @@ nav .nav-wrapper {
         margin-top: -105px;
     }
     .subtitle {
-        margin-top: 90px;
+        margin-top: -16px;
     }
     @-moz-document url-prefix() {
         .title {
@@ -506,8 +506,8 @@ nav .nav-wrapper {
         visibility: hidden;
     }
     .banner {
-        background-position: center -78%;
-        height: 600px;
+        /* background-position: center -65%;
+        height: 600px; */
     }
     .jelly-div:hover .footnote {
         visibility: hidden;
