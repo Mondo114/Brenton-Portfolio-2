@@ -127,12 +127,12 @@ nav .nav-wrapper {
 }
 
 #banner-phrase1 {
-    font-family: 'Spicy Rice', cursive;
+    font-family: 'Nunito', sans-serif;
     font-size: 60px;
     color: black;
     text-align: center;
     text-shadow: 2px 2px 0px rgb(255, 208, 106);
-    -webkit-text-stroke: 2px rgb(255, 208, 106);
+    /* -webkit-text-stroke: 2px rgb(255, 208, 106); */
 }
 
 .subtitle {
@@ -141,12 +141,12 @@ nav .nav-wrapper {
 }
 
 #banner-phrase2 {
-    font-family: 'Spicy Rice', cursive;
+    font-family: 'Nunito', sans-serif;
     font-size: 32px;
     color: black;
     text-align: center;
     text-shadow: 2px 2px 0px rgb(255, 208, 106);
-    -webkit-text-stroke: 1px rgb(255, 208, 106);
+    /* -webkit-text-stroke: 1px rgb(255, 208, 106); */
 }
 
 .border-div {
@@ -190,7 +190,7 @@ nav .nav-wrapper {
 
 .card-paragraph {
     font-size: 19px;
-    font-family: "Segoe UI";
+    font-family: 'Roboto', sans-serif;
     padding: 10px 0;
 }
 
@@ -205,7 +205,7 @@ nav .nav-wrapper {
 }
 
 .photo-section-1 {
-    height: 500px;
+    height: 400px;
     background-image: url(../images/portland.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -248,6 +248,7 @@ nav .nav-wrapper {
 
 .skills-label {
     font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
     margin-top: 0;
 }
 
@@ -283,7 +284,7 @@ nav .nav-wrapper {
 }
 
 .photo-section-2 {
-    height: 500px;
+    height: 400px;
     background-image: url(../images/solvang.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -300,7 +301,7 @@ nav .nav-wrapper {
     text-align: center;
     color: black;
     font-size: 24px;
-    font-family: "Segoe UI";
+    font-family: 'Roboto', sans-serif;
     padding-top: 8px;
 }
 
@@ -325,13 +326,13 @@ nav .nav-wrapper {
 
 .work-card-paragraph {
     font-size: 19px;
-    font-family: "Segoe UI";
+    font-family: 'Roboto', sans-serif;
     padding: 10px 0;
 }
 
 .github-repo {
     font-size: 19px;
-    font-family: "Segoe UI";
+    font-family: 'Roboto', sans-serif;
     position: relative;
     padding-bottom: 20px;
     color: blue;
@@ -432,7 +433,7 @@ nav .nav-wrapper {
 
 .footer {
     font-size: 14px;
-    font-family: "Segoe UI";
+    font-family: 'Roboto', sans-serif;
     margin: 0;
 }
 
@@ -515,6 +516,12 @@ nav .nav-wrapper {
         font-size: 18px;
         padding-left: 8px;
         padding-right: 8px;
+    }
+    .title {
+        margin-top: -130px;
+    }
+    .subtitle {
+        margin-top: -20px;
     }
     #banner-phrase1 {
         font-size: 42px;
