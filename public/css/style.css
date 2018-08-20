@@ -91,14 +91,10 @@ nav .nav-wrapper {
 }
 
 .social-link-mini:hover {
-    -webkit-filter: brightness(116%);
-    filter: brightness(116%);
     transform: scale(1.2, 1.2);
 }
 
 .social-link-mini:active {
-    -webkit-filter: brightness(116%);
-    filter: brightness(116%);
     transform: scale(0.8, 0.8);
 }
 
@@ -172,7 +168,7 @@ nav .nav-wrapper {
 
 .about-box {
     min-height: 600px;
-    background: linear-gradient(rgb(162, 218, 247), rgb(236, 245, 250), white);
+    background-image: linear-gradient(to right, rgb(162, 218, 247), rgb(236, 245, 250), white, white, white, rgb(236, 245, 250), rgb(162, 218, 247));
 }
 
 .separation {
@@ -182,29 +178,31 @@ nav .nav-wrapper {
     padding-bottom: 10px;
 }
 
+.about-writing-section {
+    display: flex;
+}
+
 .writing-section {
     margin: 0 auto;
-    width: 50%;
+    width: 70%;
     padding-bottom: 20px;
 }
 
 .card-paragraph {
     font-size: 19px;
-    font-family: 'Roboto', sans-serif;
-    padding-top: 20px;
+    font-family: "Segoe UI";
+    padding: 10px 0;
 }
 
 .self-photo {
-    float: right;
     width: 500px;
     height: auto;
-    padding: 38px 20px 20px 20px;
-    margin-right: 50px;
+    padding: 25px 0 25px 25px;
 }
 
 .photo-section-1 {
     height: 500px;
-    background-image: url(../images/solvang.jpg);
+    background-image: url(../images/portland.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -216,6 +214,7 @@ nav .nav-wrapper {
     text-align: center;
     padding-bottom: 22px !important;
     min-height: 600px;
+    background-image: linear-gradient(to right, rgb(162, 218, 247), rgb(236, 245, 250), white, white, white, rgb(236, 245, 250), rgb(162, 218, 247));
 }
 
 .skills-inner-box {
@@ -281,7 +280,7 @@ nav .nav-wrapper {
 
 .photo-section-2 {
     height: 500px;
-    background-image: url(../images/portland.jpg);
+    background-image: url(../images/solvang.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -290,13 +289,14 @@ nav .nav-wrapper {
 
 .work-box {
     padding-bottom: 20px !important;
+    background-image: linear-gradient(to right, rgb(162, 218, 247), rgb(236, 245, 250), white, white, white, rgb(236, 245, 250), rgb(162, 218, 247));
 }
 
 .app-title {
     text-align: center;
     color: black;
     font-size: 24px;
-    font-family: 'Raleway', sans-serif;
+    font-family: "Segoe UI";
 }
 
 .project {
@@ -320,13 +320,13 @@ nav .nav-wrapper {
 
 .work-card-paragraph {
     font-size: 19px;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Segoe UI";
     padding-top: 0;
 }
 
 .github-repo {
     font-size: 19px;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Segoe UI";
     position: relative;
     padding-bottom: 20px;
     color: blue;
@@ -375,7 +375,7 @@ nav .nav-wrapper {
 .connect-box {
     margin-bottom: 0;
     text-align: center;
-    background: linear-gradient(white, rgb(236, 245, 250), rgb(162, 218, 247));
+    background-image: linear-gradient(to right, rgb(162, 218, 247), rgb(236, 245, 250), white, white, white, rgb(236, 245, 250), rgb(162, 218, 247));
 }
 
 .input-field label {
@@ -427,18 +427,23 @@ nav .nav-wrapper {
 
 .footer {
     font-size: 14px;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Segoe UI";
     margin: 0;
 }
 
 /* Media Queries */
 
 @media only screen and (max-width: 1600px) {
+    .about-writing-section {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
     .writing-section {
         max-width: 75%;
     }
     .self-photo {
         max-width: 450px;
+        padding: 25px 25px 0 25px;
     }
 }
 
