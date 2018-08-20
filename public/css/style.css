@@ -123,30 +123,30 @@ nav .nav-wrapper {
 
 .title {
     position: absolute;
-    margin-top: -70px;
+    margin-top: -30px;
 }
 
 #banner-phrase1 {
-    font-family: 'Krona One', sans-serif;
+    font-family: 'Spicy Rice', cursive;
     font-size: 60px;
     color: black;
-    text-shadow: 2px 2px 0px rgb(162, 218, 247);
-    -webkit-text-stroke: 2px white;
     text-align: center;
+    text-shadow: 2px 2px 0px rgb(255, 208, 106);
+    -webkit-text-stroke: 2px rgb(255, 208, 106);
 }
 
 .subtitle {
     position: absolute;
-    margin-top: 60px;
+    margin-top: 70px;
 }
 
 #banner-phrase2 {
-    font-family: 'Krona One', sans-serif;
+    font-family: 'Spicy Rice', cursive;
     font-size: 32px;
     color: black;
-    text-shadow: 2px 2px 0px rgb(162, 218, 247);
-    -webkit-text-stroke: 1px white;
     text-align: center;
+    text-shadow: 2px 2px 0px rgb(255, 208, 106);
+    -webkit-text-stroke: 1px rgb(255, 208, 106);
 }
 
 .border-div {
@@ -194,10 +194,14 @@ nav .nav-wrapper {
     padding: 10px 0;
 }
 
+.card-paragraph:first-of-type {
+    padding-top: 30px;
+}
+
 .self-photo {
     width: 500px;
     height: auto;
-    padding: 25px 0 25px 25px;
+    padding: 35px 0 25px 25px;
 }
 
 .photo-section-1 {
@@ -223,7 +227,7 @@ nav .nav-wrapper {
 }
 
 .skills-paragraph {
-    padding-bottom: 20px;
+    padding: 30px 0;
     text-align: left;
 }
 
@@ -297,6 +301,7 @@ nav .nav-wrapper {
     color: black;
     font-size: 24px;
     font-family: "Segoe UI";
+    padding-top: 8px;
 }
 
 .project {
@@ -321,7 +326,7 @@ nav .nav-wrapper {
 .work-card-paragraph {
     font-size: 19px;
     font-family: "Segoe UI";
-    padding-top: 0;
+    padding: 10px 0;
 }
 
 .github-repo {
@@ -461,9 +466,6 @@ nav .nav-wrapper {
     .social-link-mini {
         visibility: hidden;
     }
-    .subtitle {
-        margin-top: 160px;
-    }
     .jelly-div:hover .footnote {
         visibility: hidden;
     }
@@ -590,12 +592,6 @@ nav .nav-wrapper {
 }
 
 @media only screen and (width: 390px) {
-    #banner-phrase1 {
-        font-size: 25;
-    }
-    #banner-phrase2 {
-        font-size: 25;
-    }
     .link-item:hover {
         background-color: black;
     }
