@@ -127,11 +127,11 @@ nav .nav-wrapper {
 }
 
 #banner-phrase1 {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Julius Sans One', sans-serif;
     font-size: 60px;
     color: black;
     text-align: center;
-    text-shadow: 2px 2px 0px rgb(255, 208, 106);
+    text-shadow: 2px 1px 0px rgb(255, 208, 106);
     /* -webkit-text-stroke: 2px rgb(255, 208, 106); */
 }
 
@@ -141,11 +141,11 @@ nav .nav-wrapper {
 }
 
 #banner-phrase2 {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Julius Sans One', sans-serif;
     font-size: 32px;
     color: black;
     text-align: center;
-    text-shadow: 2px 2px 0px rgb(255, 208, 106);
+    text-shadow: 2px 1px 0px rgb(255, 208, 106);
     /* -webkit-text-stroke: 1px rgb(255, 208, 106); */
 }
 
