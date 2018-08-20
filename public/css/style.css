@@ -109,7 +109,7 @@ nav .nav-wrapper {
 }
 
 .banner {
-    background-image: url(../images/laguna-1.jpg);
+    background-image: url(../images/laguna.jpg);
     background-position: center 20%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -119,40 +119,6 @@ nav .nav-wrapper {
     align-items: center;
     justify-content: center;
     border-bottom: 3px solid rgb(255, 208, 106);
-}
-
-.title {
-    position: absolute;
-    margin-top: -20px;
-}
-
-#banner-phrase1 {
-    font-family: 'Prosto One', cursive;
-    font-size: 60px;
-    color: black;
-    text-align: center;
-    text-shadow: 3px 2px 0px rgb(255, 208, 106);
-    /* -webkit-text-stroke: 2px rgb(255, 208, 106); */
-}
-
-.subtitle {
-    position: absolute;
-    margin-top: 90px;
-}
-
-#banner-phrase2 {
-    font-family: 'Prosto One', cursive;
-    font-size: 32px;
-    color: black;
-    text-align: center;
-    text-shadow: 2px 1px 0px rgb(255, 208, 106);
-    /* -webkit-text-stroke: 1px rgb(255, 208, 106); */
-}
-
-@-moz-document url-prefix() {
-    .subtitle {
-        margin-top: 200px;
-    }
 }
 
 .border-div {
@@ -445,22 +411,7 @@ nav .nav-wrapper {
 
 /* Media Queries */
 
-@media only screen and (max-width: 1900px) {
-    .title {
-        margin-top: -90px;
-    }
-    .subtitle {
-        margin-top: 20px;
-    }
-}
-
 @media only screen and (max-width: 1600px) {
-    /* .title {
-        margin-top: -90px;
-    }
-    .subtitle {
-        margin-top: 20px;
-    } */
     .about-writing-section {
         flex-direction: column-reverse;
         align-items: center;
@@ -478,20 +429,6 @@ nav .nav-wrapper {
 }
 
 @media only screen and (max-width: 1200px) {
-    .title {
-        margin-top: -105px;
-    }
-    .subtitle {
-        margin-top: -16px;
-    }
-    @-moz-document url-prefix() {
-        .title {
-            margin-top: -200px;
-        }
-        .subtitle {
-            margin-top: 400px;
-        }
-    }
     .self-photo {
         max-width: 400px;
     }
@@ -504,10 +441,6 @@ nav .nav-wrapper {
     .right,
     .social-link-mini {
         visibility: hidden;
-    }
-    .banner {
-        /* background-position: center -65%;
-        height: 600px; */
     }
     .jelly-div:hover .footnote {
         visibility: hidden;
@@ -538,26 +471,11 @@ nav .nav-wrapper {
     }
 }
 
-@media only screen and (max-width: 700px) {
-    #banner-phrase1 {
-        font-size: 50px;
-    }
-    #banner-phrase2 {
-        font-size: 30px;
-    }
-}
-
 @media only screen and (max-width: 550px) {
     .link-item {
         font-size: 18px;
         padding-left: 8px;
         padding-right: 8px;
-    }
-    #banner-phrase1 {
-        font-size: 34px;
-    }
-    #banner-phrase2 {
-        font-size: 28px;
     }
     .self-photo {
         max-width: 314px;
@@ -669,12 +587,6 @@ nav .nav-wrapper {
     .link-item {
         padding-left: 5px;
         padding-right: 5px;
-    }
-    #banner-phrase1 {
-        font-size: 28px;
-    }
-    #banner-phrase2 {
-        font-size: 24px;
     }
     .self-photo {
         max-width: 220px;
