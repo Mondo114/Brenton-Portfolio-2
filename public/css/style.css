@@ -143,9 +143,9 @@ nav .nav-wrapper {
 #banner-phrase2 {
     font-family: 'Prosto One', cursive;
     font-size: 32px;
-    color: white;
+    color: black;
     text-align: center;
-    /* text-shadow: 2px 1px 0px rgb(255, 208, 106); */
+    text-shadow: 2px 1px 0px rgb(255, 208, 106);
     /* -webkit-text-stroke: 1px rgb(255, 208, 106); */
 }
 
@@ -445,13 +445,22 @@ nav .nav-wrapper {
 
 /* Media Queries */
 
-@media only screen and (max-width: 1600px) {
+@media only screen and (max-width: 1900px) {
     .title {
         margin-top: -90px;
     }
     .subtitle {
         margin-top: 20px;
     }
+}
+
+@media only screen and (max-width: 1600px) {
+    /* .title {
+        margin-top: -90px;
+    }
+    .subtitle {
+        margin-top: 20px;
+    } */
     .about-writing-section {
         flex-direction: column-reverse;
         align-items: center;
