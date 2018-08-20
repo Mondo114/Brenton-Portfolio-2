@@ -123,7 +123,7 @@ nav .nav-wrapper {
 
 .title {
     position: absolute;
-    margin-top: -30px;
+    margin-top: -50px;
 }
 
 #banner-phrase1 {
@@ -439,6 +439,12 @@ nav .nav-wrapper {
 /* Media Queries */
 
 @media only screen and (max-width: 1600px) {
+    .title {
+        margin-top: -90px;
+    }
+    .subtitle {
+        margin-top: 20px;
+    }
     .about-writing-section {
         flex-direction: column-reverse;
         align-items: center;
@@ -453,6 +459,12 @@ nav .nav-wrapper {
 }
 
 @media only screen and (max-width: 1200px) {
+    .title {
+        margin-top: -130px;
+    }
+    .subtitle {
+        margin-top: -20px;
+    }
     .self-photo {
         max-width: 400px;
     }
