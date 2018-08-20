@@ -365,7 +365,7 @@ nav .nav-wrapper {
 }
 
 .photo-section-3 {
-    height: 500px;
+    height: 400px;
     background-image: url(../images/redondo.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -516,12 +516,6 @@ nav .nav-wrapper {
         font-size: 18px;
         padding-left: 8px;
         padding-right: 8px;
-    }
-    .title {
-        margin-top: -130px;
-    }
-    .subtitle {
-        margin-top: -20px;
     }
     #banner-phrase1 {
         font-size: 42px;
