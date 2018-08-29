@@ -400,6 +400,11 @@ nav .nav-wrapper {
     visibility: visible;
 }
 
+.copyright {
+    display: inline;
+    padding-right: 5px;
+}
+
 .footer {
     font-size: 14px;
     font-family: 'Roboto', sans-serif;
