@@ -461,6 +461,9 @@ nav .nav-wrapper {
     .card-paragraph {
         font-size: 16px;
     }
+    .work-paragraph {
+        font-size: 16px;
+    }
     .github-repo {
         font-size: 16px;
     }
@@ -488,6 +491,9 @@ nav .nav-wrapper {
         max-width: 314px;
     }
     .card-paragraph {
+        font-size: 14px;
+    }
+    .work-paragraph {
         font-size: 14px;
     }
     .photo-section-1 {
