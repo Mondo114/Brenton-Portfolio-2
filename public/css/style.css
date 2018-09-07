@@ -170,12 +170,96 @@ nav .nav-wrapper {
 .self-photo {
     width: 500px;
     height: auto;
-    padding: 38px 0 25px 25px;
+    padding: 35px 0 25px 25px;
 }
 
 .photo-section-1 {
     height: 400px;
     background-image: url(../images/portland.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.work-box {
+    padding-bottom: 20px !important;
+    background-image: linear-gradient(to right, rgb(162, 218, 247), rgb(236, 245, 250), white, white, white, rgb(236, 245, 250), rgb(162, 218, 247));
+}
+
+.app-title {
+    text-align: center;
+    color: black;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 8px;
+}
+
+.project {
+    width: calc(50% - 10px);
+    margin-top: 20px;
+}
+
+.project:only-child {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.work-image {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.work-image:hover {
+    opacity: 0.7;
+}
+
+.work-paragraph {
+    font-size: 19px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.bullet {
+    list-style-type: disc !important;
+    padding: 5px 0 5px 0;
+}
+
+.github-repo {
+    font-size: 19px;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    color: blue;
+    text-decoration: none;
+}
+
+.github-repo:hover {
+    color: blue;
+}
+
+.github-repo:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: blue;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
+}
+
+.github-repo:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+.photo-section-2 {
+    height: 400px;
+    background-image: url(../images/solvang.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -250,86 +334,6 @@ nav .nav-wrapper {
 
 #mongodb {
     width: 86px;
-}
-
-.photo-section-2 {
-    height: 400px;
-    background-image: url(../images/solvang.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-.work-box {
-    padding-bottom: 20px !important;
-    background-image: linear-gradient(to right, rgb(162, 218, 247), rgb(236, 245, 250), white, white, white, rgb(236, 245, 250), rgb(162, 218, 247));
-}
-
-.app-title {
-    text-align: center;
-    color: black;
-    font-size: 24px;
-    font-family: 'Roboto', sans-serif;
-    padding-top: 8px;
-}
-
-.project {
-    width: calc(50% - 10px);
-    margin-top: 20px;
-}
-
-.project:only-child {
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.work-image {
-    width: 100%;
-    border-radius: 10px;
-}
-
-.work-image:hover {
-    opacity: 0.7;
-}
-
-.work-card-paragraph {
-    font-size: 19px;
-    font-family: 'Roboto', sans-serif;
-    padding: 10px 0;
-}
-
-.github-repo {
-    font-size: 19px;
-    font-family: 'Roboto', sans-serif;
-    position: relative;
-    color: blue;
-    text-decoration: none;
-}
-
-.github-repo:hover {
-    color: blue;
-}
-
-.github-repo:before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: blue;
-    visibility: hidden;
-    -webkit-transform: scaleX(0);
-    transform: scaleX(0);
-    -webkit-transition: all 0.2s ease-in-out 0s;
-    transition: all 0.2s ease-in-out 0s;
-}
-
-.github-repo:hover:before {
-    visibility: visible;
-    -webkit-transform: scaleX(1);
-    transform: scaleX(1);
 }
 
 .photo-section-3 {
@@ -457,9 +461,6 @@ nav .nav-wrapper {
     .card-paragraph {
         font-size: 16px;
     }
-    .work-card-paragraph {
-        font-size: 16px;
-    }
     .github-repo {
         font-size: 16px;
     }
@@ -500,9 +501,6 @@ nav .nav-wrapper {
     }
     .project {
         margin-top: 0;
-    }
-    .work-card-paragraph {
-        font-size: 14px;
     }
     .github-repo {
         font-size: 14px;
